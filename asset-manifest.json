@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tequilacuramia/static/css/main.5a5109d2.chunk.css",
-    "main.js": "/tequilacuramia/static/js/main.37a71fbb.chunk.js",
-    "main.js.map": "/tequilacuramia/static/js/main.37a71fbb.chunk.js.map",
+    "main.css": "/tequilacuramia/static/css/main.a6d375f6.chunk.css",
+    "main.js": "/tequilacuramia/static/js/main.5bb83ebe.chunk.js",
+    "main.js.map": "/tequilacuramia/static/js/main.5bb83ebe.chunk.js.map",
     "runtime-main.js": "/tequilacuramia/static/js/runtime-main.88bbc396.js",
     "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.88bbc396.js.map",
     "static/css/2.16e4d89b.chunk.css": "/tequilacuramia/static/css/2.16e4d89b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.826101e0.chunk.js.map": "/tequilacuramia/static/js/3.826101e0.chunk.js.map",
     "index.html": "/tequilacuramia/index.html",
     "static/css/2.16e4d89b.chunk.css.map": "/tequilacuramia/static/css/2.16e4d89b.chunk.css.map",
-    "static/css/main.5a5109d2.chunk.css.map": "/tequilacuramia/static/css/main.5a5109d2.chunk.css.map",
+    "static/css/main.a6d375f6.chunk.css.map": "/tequilacuramia/static/css/main.a6d375f6.chunk.css.map",
     "static/js/2.7aed62a8.chunk.js.LICENSE.txt": "/tequilacuramia/static/js/2.7aed62a8.chunk.js.LICENSE.txt",
     "static/media/about-bottle.d3e14acf.png": "/tequilacuramia/static/media/about-bottle.d3e14acf.png",
     "static/media/about1.4bed2800.jpg": "/tequilacuramia/static/media/about1.4bed2800.jpg",
@@ -25,6 +25,7 @@
     "static/media/coc6.9f091c6c.jpg": "/tequilacuramia/static/media/coc6.9f091c6c.jpg",
     "static/media/coc7.0c8922e4.jpg": "/tequilacuramia/static/media/coc7.0c8922e4.jpg",
     "static/media/coc8.d1451931.jpg": "/tequilacuramia/static/media/coc8.d1451931.jpg",
+    "static/media/coctel.b4c41013.jpg": "/tequilacuramia/static/media/coctel.b4c41013.jpg",
     "static/media/hechoenmexico.3016fe1b.svg": "/tequilacuramia/static/media/hechoenmexico.3016fe1b.svg",
     "static/media/home1-m.5efb2a9b.jpg": "/tequilacuramia/static/media/home1-m.5efb2a9b.jpg",
     "static/media/home1.8518f8bd.jpg": "/tequilacuramia/static/media/home1.8518f8bd.jpg",
@@ -34,19 +35,21 @@
     "static/media/home5.b0cafe3f.jpg": "/tequilacuramia/static/media/home5.b0cafe3f.jpg",
     "static/media/loading1.c6c6bc2f.svg": "/tequilacuramia/static/media/loading1.c6c6bc2f.svg",
     "static/media/map.9ca42d19.jpg": "/tequilacuramia/static/media/map.9ca42d19.jpg",
+    "static/media/mapa.c6c3a1a9.jpg": "/tequilacuramia/static/media/mapa.c6c3a1a9.jpg",
     "static/media/process1.6a994bb8.jpg": "/tequilacuramia/static/media/process1.6a994bb8.jpg",
     "static/media/slider1.3f26ceaf.jpg": "/tequilacuramia/static/media/slider1.3f26ceaf.jpg",
     "static/media/slider2.19489643.jpg": "/tequilacuramia/static/media/slider2.19489643.jpg",
     "static/media/slider3.871be7fa.jpg": "/tequilacuramia/static/media/slider3.871be7fa.jpg",
     "static/media/slider4.36ba70a0.jpg": "/tequilacuramia/static/media/slider4.36ba70a0.jpg",
     "static/media/slider5.3568e0d8.jpg": "/tequilacuramia/static/media/slider5.3568e0d8.jpg",
-    "static/media/slider6.c702eeb4.jpg": "/tequilacuramia/static/media/slider6.c702eeb4.jpg"
+    "static/media/slider6.c702eeb4.jpg": "/tequilacuramia/static/media/slider6.c702eeb4.jpg",
+    "static/media/valvula1.bdeab902.jpg": "/tequilacuramia/static/media/valvula1.bdeab902.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.88bbc396.js",
     "static/css/2.16e4d89b.chunk.css",
     "static/js/2.7aed62a8.chunk.js",
-    "static/css/main.5a5109d2.chunk.css",
-    "static/js/main.37a71fbb.chunk.js"
+    "static/css/main.a6d375f6.chunk.css",
+    "static/js/main.5bb83ebe.chunk.js"
   ]
 }
