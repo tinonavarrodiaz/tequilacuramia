@@ -4,7 +4,7 @@ import Logo from "../components/Logo";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import AOSInit from "../helpers/helpers";
-
+import botella from "../assets/img/botella.png"
 class About extends Component {
   constructor(props){
     super(props)
@@ -45,9 +45,8 @@ class About extends Component {
               </p>
               
             </div>
-            <div className="about__img">
-              
-              <img src={imagesAbout.bottle} className="section__banner-image" alt="banner" data-aos="fade-left" />
+            <div className="about__img">              
+              <img src={botella} className="section__banner-image" alt="banner" data-aos="fade-left" />
               
             </div>
           </article>

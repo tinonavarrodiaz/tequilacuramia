@@ -40,12 +40,12 @@ class Slider extends Component {
     return(
       <div className="Slider-container">
         <div className="Slider" id="sliderNH" >
-          <img src={imgs.slider1} className="Slider__item active" alt="banner" />
-          <img src={imgs.slider2} className="Slider__item" alt="banner" />
-          <img src={imgs.slider3} className="Slider__item" alt="banner" />
-          <img src={imgs.slider4} className="Slider__item" alt="banner" />
-          <img src={imgs.slider5} className="Slider__item" alt="banner" />
-          <img src={imgs.slider6} className="Slider__item" alt="banner" />
+          <img src={imgs.slider1} data-index="0" onClick={this.next} className="Slider__item active" alt="banner" />
+          <img src={imgs.slider2} data-index="1" onClick={this.next} className="Slider__item" alt="banner" />
+          <img src={imgs.slider3} data-index="2" onClick={this.next} className="Slider__item" alt="banner" />
+          <img src={imgs.slider4} data-index="3" onClick={this.next} className="Slider__item" alt="banner" />
+          <img src={imgs.slider5} data-index="4" onClick={this.next} className="Slider__item" alt="banner" />
+          <img src={imgs.slider6} data-index="5" onClick={this.next} className="Slider__item" alt="banner" />
         </div>
         <ul className="bullets">
           <li className="bull active"></li>
