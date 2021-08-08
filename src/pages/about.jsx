@@ -47,7 +47,7 @@ class About extends Component {
             </div>
             <div className="about__img">
               
-              <img src={imagesAbout.bottle} className="section__banner-image" alt="banner" data-aos="fade-left" data-aos-offset="300"/>
+              <img src={imagesAbout.bottle} className="section__banner-image" alt="banner" data-aos="fade-left" data-aos-offset="400"/>
               
             </div>
           </article>
