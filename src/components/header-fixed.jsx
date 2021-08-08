@@ -1,7 +1,7 @@
 // import Logo from "./Logo";
 import Hamburger from "./HamburgerLight";
 import Menu from "./Menu";
-import logo from "../assets/img/logoLight.png"
+import logo from "../assets/img/logoLight.svg"
 import {
   NavLink
 } from "react-router-dom";
