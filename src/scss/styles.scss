@@ -1,0 +1,132 @@
+/*
+  This boilerplate is based in ITCSS and SMACSS
+*/
+
+// Variables de personalizacion de ed-grid
+
+// $breakpoints: (
+//   s: 0,
+//   m: 640px,
+//   lg: 1024px,
+//   xl: 1440px
+// );
+
+$prototype: true; // Activa los estilos de prototipado
+$dev: false; // Activa los estilos para debuggin
+$max-width: 1200px; // Ancho máximo de los contenedores ed-container y ed-grid
+$l-unit: 0.5rem; // Unidad básica de layout (para separaciones verticales, margin y padding)
+$gap: $l-unit * 4; // Separación entre columnas (2rem)
+$legacy: false; // Soporte para versiones antiguas
+$container: ed-container; // Clase para el contenedor (core flexbox)
+$item: ed-item; // Clase para los items (core flexbox)
+$max-grid-columns: 12; // Máximo número de columnas (core css grid)
+$fractions: 3 6; // Fracciones para crear columnas (core flexbox)
+
+@import "~aos/dist/aos.css";
+//EDGrid
+@import "~ed-grid/ed-grid";
+
+
+
+// Config
+@import "config/functions";
+@import "config/variables";
+@import "config/mixins";
+
+// Hamburgers Menu
+// @import "~hamburgers/dist/hamburgers.min.css";
+
+// Theme (colors and fonts)
+@import "theme/typography";
+// Base and elements (generic)
+@import "base/base";
+
+// LAYOUT
+// Escribe solo los estilos de layout (division en regiones del viewport)
+@import "layout/layout";
+
+// MODULOS (SMACSS) O COMPONENTES (ITCSS)
+// Son los elementos de UI de tu interfaz, como botones, tablas, menus, etc.
+// Crea los archivos adicionales que necesites (uno por componente)
+@import "components/buttons";
+@import "components/menus";
+@import "components/loading";
+@import "components/header";
+  @import "components/footer1";
+
+//@include from(l){
+//
+//}
+@import "pages/home1";
+@import "pages/about";
+@import "pages/process";
+@import "pages/cocktails";
+@import "pages/contact";
+
+
+// Utilities (hacks)
+// Todos los hacks que hayas necesitado para solucionar conflictos
+// o resolver situaciones extremas. Se espera poder mejorarlos luego.
+@import "hacks/hacks";
+
+body {
+}
+
+.container{
+  //width: calc(100vw - 13.55vw);
+  //margin-left: auto;
+  //margin-right: auto;
+  //display: flex;
+  //justify-content: flex-end;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// .video-container {
+//   height: 0;
+//   overflow: hidden;
+//   padding-bottom: 56.25%;
+//   position: relative;
+
+//   >iframe,
+//   >video,
+//   >.video {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
+.video-container {
+  background-color: #111;
+  height:100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  .loading{
+    width: 2em;
+    height: 2em;
+  }
+}
+
+.parallax{
+  // transform: translateY(calc((var(--scroll) * var(--factor)) * 1px));
+  // transition: transform .2s;
+}
+.logo-c{
+  width: 60%;
+}

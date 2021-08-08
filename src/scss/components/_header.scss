@@ -1,0 +1,46 @@
+.hamburger-icon{
+  $size: 35px;
+  width: $size;
+  height:$size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.main-header{
+  @extend %container-padding;
+  //height: var(--header-height);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:var(--z-fixed);
+  padding-top: 40px;
+  padding-bottom: 90px;
+  @include to(l){
+    padding-bottom: 10px;
+  }
+  &.fixed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  .Logo{
+    height: 30px;
+    width: auto;
+
+    & > svg{
+      height:100%;
+      width: auto;
+    }
+  }
+  svg{
+    fill: var(--header-color);
+  }
+}
+.scroll-content{
+  background: linear-gradient($body-bg 20%, #fff 20%);
+}

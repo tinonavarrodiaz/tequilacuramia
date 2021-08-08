@@ -1,0 +1,57 @@
+.main-nav{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: var(--z-modal);
+  visibility: hidden;
+  opacity:0;
+  transition: all .5s;
+  &.show{
+    visibility: visible;
+    opacity: 1;
+  }
+  .menu{
+    @extend %list-style;
+    background: #EDEAE6;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #8C8C8C;
+    font-size: 6vh;
+    font-weight: normal;
+    a.selected{
+      color: darken(#8C8C8C,15);
+    }
+    &__close{
+      width: 3rem;
+      height: 3rem;
+      position: absolute;
+      right: 15vw;
+      top: 15vh;
+      cursor: pointer;
+      &::before, &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 1px;
+        top: 0;
+        left: 50%;
+        background: #8C8C8C;
+        transform-origin: center;
+      }
+      &::before{
+        transform: translateX(-50%) rotate(45deg);
+      }
+      &::after{
+        transform: translateX(-50%) rotate(-45deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.main-footer{
+  @extend %container-padding;
+  height: var(--footer-height);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  @include from(l){
+    display: block;
+  }
+  img{
+    height: 40px;
+    width: auto;
+  }
+  .footerMenu {
+    @extend %list-style;
+    display: flex;
+    color: #8C8C8C;
+    margin-right: 5vw;
+    li {
+      //padding: 0 3em;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background: rgba(#000, .5);
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+  a{
+    display: block;
+    line-height: 3em;
+    padding: 0 3em;
+  }
+}

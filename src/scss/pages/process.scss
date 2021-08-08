@@ -1,0 +1,72 @@
+.process__text{
+  width: 90%;
+  margin: 0 auto calc(var(--margin-bottom) * 2.4);
+  max-width: calc(100vw - (var(--padding) * 4));
+}
+.section__title1{
+  margin: calc(var(--margin-bottom) * 2) auto calc((var(--margin-bottom) * .75) - 0px);
+  color: var(--color-main);
+  text-align: center;
+  font-size: 2.8em;
+  line-height: 1.2;
+}
+.section__text{
+  line-height: 1.2;
+}
+
+.process {
+  &__box{
+    background-color: var(--color-second);
+    color: #fff;
+    margin-bottom: calc((var(--margin-bottom) * 3.5) - 29px );
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: calc(var(--margin-bottom) * 1.2) calc(var(--padding) * 1.5) calc((var(--margin-bottom) * 1.2) - 3px);
+    align-items: center;
+    justify-content: end;
+  }
+}
+.brand{
+  color: var(--color-main);
+  width: 100%;
+  margin: calc(var(--margin-bottom) * 2.5) auto calc(var(--margin-bottom) * 2.5);
+  //max-width: calc(100vw - (var(--padding) * 4));
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #FFF5F1;
+  padding: 50px calc(var(--padding) * 2);
+  @include to(l){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  svg{
+    fill: var(--color-main);
+    height: 100%;
+    width: auto;
+  }
+  > .Logo{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    @include to(l){
+      width: 170px;
+      margin: 0 auto;
+    }
+  }
+  &__slogan{
+    font-size: 2.8em;
+    text-align: right;
+    line-height: 1.1;
+    font-family: $heading-font;
+    letter-spacing: 7px;
+    @include to(l){
+      margin-top: 1em;
+      text-align: center;
+      font-size: 1.5em;
+    }
+  }
+}
