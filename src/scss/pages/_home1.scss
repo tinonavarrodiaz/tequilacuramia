@@ -108,6 +108,10 @@
           width: 90%;
           font-size: 1.8em;
           color: #565656;
+          @include to(l){
+            font-size: 1em;
+            padding-left: 1em;
+          }
         }
       }
     }
@@ -180,4 +184,44 @@
 .slogan__grid--item:last-child p{
   line-height: 1.1 !important;
   font-size: 2rem;
+}
+.slogan__text{
+  @include to(l){
+    font-size: 1.2em !important;
+  }
+}
+.slogan h2{
+  @include to(l) {
+    font-size: 1.5em !important;
+  }
+}
+@include to(l) {
+  .link-page--item{
+    width: 80%;
+    margin: 0 auto !important;
+    margin-bottom: 1.5em !important;
+    figcaption{
+      line-height: 1.1 !important;
+      padding: 0 0 .5em !important;
+    }
+    p{
+      line-height: 1;
+    }
+  }
+  .about{
+    .highlighted{
+      font-size: 1.3em !important;
+      font-weight: normal !important;
+      text-align: center !important;
+    }
+    .about__img{
+      height:300px !important;
+    }
+  }
+}
+.highlighted {
+  font-weight: normal  !important;
+}
+.main-logo{
+  width: 150px;
 }

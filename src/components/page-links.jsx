@@ -1,20 +1,22 @@
 import React, { Component } from "react";
 import imagesHome from "../assets/images_home";
 import {NavLink} from "react-router-dom";
+import valvula from "../assets/img/valvula1.jpg";
+import coctel from "../assets/img/coctel.jpg";
 
 class PageLinks extends Component{
   render() {
     return (
       <article className="link-page">
         <figure className="link-page--item" data-aos="fade-right" data-aos-offset="300">
-          <img src={imagesHome.img3} alt="" />
+          <img src={coctel} alt="" />
           <figcaption>COCKTAILS</figcaption>
           <p>Discover and enjoy the greatest<br />cocktails & drinks you can prepare with<br />our Tequila.<br />It’s
             time to get creative!</p>
           <NavLink to="/cocktails">Learn more</NavLink>
         </figure>
         <figure className="link-page--item" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="300">
-          <img src={imagesHome.img4} alt="" />
+          <img src={valvula} alt="" />
           <figcaption>THE PROCESS</figcaption>
           <p>Join us on a journey of how<br />Curamia® Tequila is made.<br />From the fields to your glass!.</p>
           <NavLink to="/process">Learn more</NavLink>

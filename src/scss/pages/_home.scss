@@ -53,6 +53,7 @@
 .slogan {
   // padding-left: var(--padding);
   // padding-right: var(--padding);
+  font-size: .8em;
   img{
     visibility: visible !important;
     width: 90%;
@@ -90,6 +91,11 @@
         p{
           font-size: 1.2em;
           color: #565656;
+          background-color: lime;
+          @include to(l){
+            padding: 0 1em;
+            font-size: .9em important;
+          }
         }
       }
     }

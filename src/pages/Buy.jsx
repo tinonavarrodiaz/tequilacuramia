@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import imagesHome from '../assets/images_home';
 import AOSInit from "../helpers/helpers";
 
+import mapa from "../assets/img/mapa.jpg";
+
 class Buy extends Component {
   constructor(props) {
     super(props);
@@ -66,7 +68,7 @@ class Buy extends Component {
               </div>
               <div className="buy">
                 <div className="map">
-                  <img src={imagesHome.map} data-aos="zoom-in" alt="map"/>
+                  <img src={mapa} data-aos="zoom-in" alt="map"/>
                   <p data-aos="fade-left">If you stock CURAMIA and would like to be included in our stocklist map, please email us here</p>
                 </div>
               </div>

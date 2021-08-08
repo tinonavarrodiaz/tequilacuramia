@@ -9,7 +9,6 @@ const AOSInit =()=>{
     useClassNames: true,
     mirror: true,
     once: false,
-    offset: 300
   })
 }
 

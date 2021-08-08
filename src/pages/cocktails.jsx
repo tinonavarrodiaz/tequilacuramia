@@ -4,7 +4,6 @@ import AOSInit from "../helpers/helpers";
 import imagesHome from '../assets/images_home';
 
 
-
 class Cocktails extends Component {
   constructor(props) {
     super(props);
