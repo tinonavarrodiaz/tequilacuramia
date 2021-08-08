@@ -19,7 +19,7 @@ import Contact from "../pages/Contact";
 function Routes() {
   return (
     // <Router> 
-    <Router basename="/tequila-curamina">
+    <Router basename="/tequilacuramia">
       <Switch>
         <Route exact path="/" >
           <Home />
