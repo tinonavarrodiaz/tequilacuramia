@@ -40,7 +40,7 @@ class Cocktails extends Component {
       //     }
       //   }}
       // >
-      <div className="over" style={{overflow: "hidden" }}>
+      <div className="over over-cocktails" style={{overflow: "hidden" }}>
         <Header />
         <section className="section contact Cocktails">
           <div className="contact-grid">

@@ -40,7 +40,7 @@ class Buy extends Component {
                   so you can be part of the
                   Curamia® Experience.
                 </p>
-                <form action="" style={{width: '70%', lineHeight: '1.1'}} data-aos="fade-left">
+                <form  className="formBuy" action="" style={{width: '70%', lineHeight: '1.1'}} data-aos="fade-left">
                   <div className="input-group-search">
                     <label htmlFor="SearchLocation">Search Location:</label>
                     <input type="search" id="SearchLocation"/>

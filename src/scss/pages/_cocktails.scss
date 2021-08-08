@@ -117,10 +117,10 @@
         display: grid;
         max-width: 100%;
         grid-template-columns: unset;
-        grid-auto-rows: 40% 1fr;
+        grid-auto-rows: 200% 1fr;
         position: absolute;
         top: 0;
-        overflow:auto;
+        // overflow:auto;
         h2{
           font-size: 1.3em;
           text-align: center;
@@ -155,9 +155,110 @@
 }
 .over{
    background-color: rgba(#EEEAE6, 1);
-  min-height: 100vh;
+  height: 100vh;
   padding-bottom: 20px;
+  @include to(l){
+    overflow: hidden !important;
+    overflow-y: auto !important;
+    height: 130vh;
+    bottom: 1em;
+  }
   &-contact{
-    background: linear-gradient(90deg, #EEEAE6 30%, #fdfdfd 30%)
+    @include from(l){
+      background: linear-gradient(90deg, #EEEAE6 30%, #fdfdfd 30%)
+    }
+  }
+}
+.contact{
+  @include to(l){
+    position: relative;
+    top: 11.5vh;
+    #message{
+      height:4em;
+    }
+    .textarea{
+      margin-bottom: .5em;
+    }
+    input{
+      // height: 1.2em;
+      // line-height: 1.2em;
+    }
+  }
+  @include to(320px){
+    #message {
+      height: 3em;
+    }
+
+    .textarea {
+      margin-bottom: .5em;
+    }
+
+    input {
+      height: 1.2em;
+      line-height: 1.2em;
+    }
+  }
+}
+@include to(l){
+  .bullets{
+    background: #EEEAE6 !important;
+    height: 2em !important;
+    align-items: center;
+    justify-self: center;
+    li:last-child{
+      margin-right: 1em !important;
+    }
+    
+  }
+  .sidebar{
+    p{
+      width: 100% !important;
+    }
+    form{
+      width: 100%!important;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .input-group-search{
+      margin: .3em !important;
+    }
+    .button-search{
+      width: 50% !important;
+      position: relative;
+      left: 100% !important;
+    }
+  }
+  .map{
+    height: 30vh !important
+  }
+  .formBuy{
+    padding-bottom: 40px;
+    // padding-top: 2em;
+  }
+  .contact__form{
+    padding-top: 3em;
+  }
+  p{
+    text-align: center;
+  }
+  .Cocktails .buy{
+    height: 115vh !important;
+    padding-bottom: 3em;
+  }
+  .over-cocktails{
+    height: 140vh !important;
+    overflow: hidden !important;
+    padding-bottom: 3em;
+  }
+  .section__title1{
+    font-size: 1.3em;
+    line-height: 1.2;
+  }
+  .bullets-slider {
+    background: transparent !important;
+    height: auto !important;
+  }
+  footer img{
+    width: 120px;
   }
 }

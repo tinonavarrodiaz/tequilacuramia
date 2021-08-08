@@ -56,7 +56,7 @@ class Slider extends Component {
           <img src={imgs.slider5} data-index="4" className="Slider__item" alt="banner" />
           <img src={imgs.slider6} data-index="5" className="Slider__item" alt="banner" />
         </div>
-        <ul className="bullets">
+        <ul className="bullets bullets-slider">
           <li style={{cursor: "pointer"}}onClick={this.bullActive} data-index="0" className="bull active"></li>
           <li style={{cursor: "pointer"}}onClick={this.bullActive} data-index="1" className="bull"></li>
           <li style={{cursor: "pointer"}}onClick={this.bullActive} data-index="2" className="bull"></li>
