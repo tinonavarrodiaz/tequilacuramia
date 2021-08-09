@@ -221,11 +221,12 @@ class Cocktails extends Component {
   }
   
   componentDidMount() {
+    console.log('componentDidMount')
     document.body.style.setProperty('--header-color', '#FF3500')
+    this.slide()
     AOSInit()
-    document.addEventListener('DOMContentLoaded', e => {
-      this.slide()
-
+    window.addEventListener('DOMContentLoaded', e => {
+      console.log('DOMContentLoaded')
     })
   }
 }
