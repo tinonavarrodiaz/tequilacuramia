@@ -41,7 +41,7 @@ class About extends Component {
               
               
               <p className="text" data-aos="fade-right" >
-                Curamia a lifestyle brand that was born in the middle of a global pandemic. One of the main things we thought about was how everyone around the world was concerned and mindful about their health and wellness. To us, Curamia is part of that health and wellness. Tequila has always been known to be the one spirit that those who are health minded drink and there is scientific evidence that proves that such spirit also has medicinal purposes; it is an upper and low in sugars and calories.<br />Curamia is not another tequila. It is the best, most elegant and delicate top shelf tequila that is accessible to all.
+                Curamia a lifestyle brand that was born in the middle of a global pandemic. One of the main things we thought about was how everyone around the world was concerned and mindful about their health and wellness. To us, Curamia is part of that health and wellness. Tequila has always been known to be the one spirit that those who are health minded drink and there is scientific evidence that proves that such spirit also has medicinal purposes; it is an upper and low in sugars and calories.<br /><br />Curamia is not another tequila. It is the best, most elegant and delicate top shelf tequila that is accessible to all.
               </p>
               
             </div>

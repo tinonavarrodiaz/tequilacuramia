@@ -7,6 +7,7 @@ import ArticleText from "../components/ArticleText";
 import Slogan from "../components/Slogan";
 import AOSInit from "../helpers/helpers";
 
+
 class Home extends Component  {
   constructor(props){
     super(props)

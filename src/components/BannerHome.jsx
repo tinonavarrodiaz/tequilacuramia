@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import {BrowserView, MobileView} from "react-device-detect";
 import Loader from "react-js-loader";
-import imagesHome from "../assets/images_home";
+import introText from "../assets/img/text-intro.png";
+import intro from "../assets/img/intro.jpg"
 import './banner.scss'
 
 class BannerHome extends Component {
@@ -19,16 +20,18 @@ class BannerHome extends Component {
           </div>
         </BrowserView>
         <MobileView>
-          <picture className="picture-banner">
-            <source srcSet={imagesHome.img1} media="(min-width: 1024px)" />
+          <picture data-aos="fade-in" className="picture-banner">
+            <source srcSet={intro} media="(min-width: 1024px)" />
             {/*<source srcset={imagesHome.img1} media="(min-width: 1024px)"/>*/}
-            <img src={imagesHome.img1m} alt="" />
+            <img  src={intro} alt="" />
 
           </picture>
 
           <div className="text-con" >
-            <h1>A DELICATE<br />BALANCE</h1>
-            <h2>Of excelence, beauty, wellness &<br />great memories.</h2>
+            <img  data-aos="fade-left" className="text-intro" src={introText} alt="" />
+          {/* <img src={introText} alt=""> */}
+            {/* <h1 className="intro-title">A DELICATE<br />BALANCE</h1>
+            <h2 className="intro-subtitle">Of excelence, beauty, wellness &<br />great memories.</h2> */}
           </div>
         </MobileView>
       </div>
