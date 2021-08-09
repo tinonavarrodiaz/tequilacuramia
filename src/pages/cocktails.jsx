@@ -11,12 +11,31 @@ class Cocktails extends Component {
       success: null,
       message: null
     }
+    this.slide = this.slide.bind(this)
   }
   // sendForm = (e) => {
   //   e.preventDefault()
   //   const form = e.target
 
   // }
+  slide(){
+    let bull = [...document.querySelectorAll('.bullets li')]
+    let cocktails = [...document.querySelectorAll('.cocktail')]
+    let total = cocktails.length
+    setInterval(() => {
+      let active = parseInt(document.querySelector('.bullets .active').dataset.index)
+      // console.log(total,active)
+      bull.map(el=>el.classList.remove('active'))
+      cocktails.map(el=>el.classList.remove('active'))
+      if(active === total - 1){
+        bull[0].classList.add('active')
+        cocktails[0].classList.add('active')
+      }else{
+        bull[active + 1].classList.add('active')
+        cocktails[active + 1].classList.add('active')
+      }
+    }, 7000);
+  }
 
   bullActive = (e) =>{
     let Target = e.target
@@ -49,7 +68,7 @@ class Cocktails extends Component {
               <h2 className="section__title" data-aos="fade-right">COCKTAILS</h2>
 
             </div>
-            <div className="buy">
+            <div className="buy" id="sliderNH">
               <ul className="bullets" id="bullets">
                 <li onClick={this.bullActive} data-index="0" className="active"></li>
                 <li onClick={this.bullActive} data-index="1"></li>
@@ -203,7 +222,10 @@ class Cocktails extends Component {
   componentDidMount() {
     document.body.style.setProperty('--header-color', '#FF3500')
     AOSInit()
+    document.addEventListener('DOMContentLoaded', e => {
+      this.slide()
 
+    })
   }
 }
 // const bulls = (cocktails) => {
