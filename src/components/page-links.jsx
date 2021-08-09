@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import imagesHome from "../assets/images_home";
+// import imagesHome from "../assets/images_home";
 import {NavLink} from "react-router-dom";
 import valvula from "../assets/img/valvula1.jpg";
 import coctel from "../assets/img/coctel.jpg";
