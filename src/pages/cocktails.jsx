@@ -19,6 +19,7 @@ class Cocktails extends Component {
 
   // }
   slide(){
+    console.log("slider")
     let bull = [...document.querySelectorAll('.bullets li')]
     let cocktails = [...document.querySelectorAll('.cocktail')]
     let total = cocktails.length
