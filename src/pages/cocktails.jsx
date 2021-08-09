@@ -24,7 +24,7 @@ class Cocktails extends Component {
     let total = cocktails.length
     setInterval(() => {
       let active = parseInt(document.querySelector('.bullets .active').dataset.index)
-      // console.log(total,active)
+      console.log(total,active)
       bull.map(el=>el.classList.remove('active'))
       cocktails.map(el=>el.classList.remove('active'))
       if(active === total - 1){
