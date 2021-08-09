@@ -3,6 +3,8 @@ import imagesHome from "../assets/images_home";
 import {NavLink} from "react-router-dom";
 import valvula from "../assets/img/valvula1.jpg";
 import coctel from "../assets/img/coctel.jpg";
+import mapa from "../assets/img/mapa.jpg";
+
 
 class PageLinks extends Component{
   render() {
@@ -22,7 +24,7 @@ class PageLinks extends Component{
           <NavLink to="/process">Learn more</NavLink>
         </figure>
         <figure className="link-page--item" data-aos="fade-left" data-aos-delay="200" data-aos-offset="300">
-          <img src={imagesHome.img5} alt="" />
+          <img src={mapa} alt="" />
           <figcaption>WHERE TO BUY</figcaption>
           <p>These are the places where<br />you can find our product, so you<br />can be part of the<br />Curamia®
             Experience.</p>

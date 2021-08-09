@@ -40,7 +40,7 @@ $z-modal: 1000;
 
 $images-path: "img";
 
-$color-fisrt: #FF5100;
+$color-fisrt: #ed5e2b;
 $color-first-alt: #006dc6;
 $color-second: #2C2D2B;
 $color-second-alt: #00bff0;
@@ -71,8 +71,8 @@ $textColor: $color-text;
 $bodyBg: $color-body-bg;
 
 :root {
-  --color-main: #FF5100;
-  --color-fisrt: #{$color-fisrt};
+  --color-main: #ed5e2b;
+  --color-fisrt: #ed5e2b;
   --color-first-alt: #{$color-first-alt};
   --color-second: #{$color-second};
   --color-second-alt: #{$color-second-alt};
@@ -87,5 +87,5 @@ $bodyBg: $color-body-bg;
   --color-text: #{$color-text};
   --color-text-light: #{$color-text-light};
   --color-body-bg: #{$color-body-bg};
-  --header-color: #{$color-fisrt};
+  --header-color: #ed5e2b;
 }

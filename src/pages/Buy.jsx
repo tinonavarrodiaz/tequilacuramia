@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import imagesHome from '../assets/images_home';
 import AOSInit from "../helpers/helpers";
 
-import mapa from "../assets/img/mapa.jpg";
+import mapa from "../assets/img/map.jpg";
 
 class Buy extends Component {
   constructor(props) {
