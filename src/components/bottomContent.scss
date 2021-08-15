@@ -1,0 +1,34 @@
+.bottomContent{
+  // --mbot: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: calc(var(--mbot) * 2.5) 2em;
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    justify-content:center;
+    padding: calc(var(--mbot) * 4) 10vw calc(var(--mbot) * 4);
+  }
+  .textbutton{
+    margin-bottom: var(--mbot);
+    @media screen and (min-width: 1024px) {
+      margin-right: 10vw;
+    }
+  }
+  .buttom-btn{
+    max-width: 100px;
+    cursor: pointer;
+    @media screen and (min-width: 1024px) {
+      max-width: 150px;
+    }
+  }
+  .btn-find{
+    margin-bottom: var(--mbot);
+    @media screen and (min-width: 1024px) {
+      margin-bottom: 0;
+      margin-right: 3vw;
+    }
+  }
+}

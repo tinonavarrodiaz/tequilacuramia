@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import imgs from '../assets/images_process';
 // import { Scrollbar } from 'smooth-scrollbar-react';
-import Slider from "../components/Slider";
+// import Slider from "../components/Slider";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import AOSInit from "../helpers/helpers";
-
+import flor from "../assets/img/12.jpg"
+import ArticleBottom from "../components/bottomContent";
 class Process extends Component {
   constructor(props){
     super(props)
@@ -38,7 +39,7 @@ class Process extends Component {
         <Header />
 
         <section className="section process">
-          <h2 className="section__title" data-aos="fade-left" data-aos-offset="300">The process</h2>
+          <h2 className="section__title" data-aos="fade-left" data-aos-offset="300">Our process</h2>
           <article className="section__banner">
             <img src={imgs.img1} className="section__banner-image" alt="banner"  data-aos=""/>
           </article>
@@ -51,9 +52,9 @@ class Process extends Component {
           <p className="section__text" data-aos="fade-right" data-aos-offset="300">Our process begins atop the volcano of tequila, when natural spring water trickles down the rugged cliffs to the underground wells below —natural aquifers, 70-meters beneath the earth’s surface. The volcanic soil enriches the water with essential minerals, which is Harmonized with our tequila through a proprietary process. This combination of authenticity and craftsmanship, of heritage and innovation, is at the very heart of Curamia Tequila.</p>
             
           </article>
-          <article className="process__box " style={{display: 'block'}} data-aos="fade">
-
-            <Slider/>
+          <article className="process__box " style={{display: 'block'}} >
+            <img data-aos="fade" src={flor} alt=""/>
+            {/* <Slider/> */}
 
           </article>
           <article className="brand" >
@@ -64,6 +65,7 @@ class Process extends Component {
             <p className="brand__slogan" data-aos="fade-left" data-aos-offset="300">A MEXICAN<br/>LEGACY</p>
           </article>
         </section>
+        <ArticleBottom alt="true" back="#ed5e2b" pad="50px"/>
         <Footer />
       </div>
     // </Scrollbar>

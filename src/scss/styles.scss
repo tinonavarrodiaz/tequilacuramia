@@ -53,6 +53,7 @@ $fractions: 3 6; // Fracciones para crear columnas (core flexbox)
 @import "components/loading";
 @import "components/header";
   @import "components/footer1";
+  @import "components/access";
 
 //@include from(l){
 //
@@ -62,6 +63,7 @@ $fractions: 3 6; // Fracciones para crear columnas (core flexbox)
 @import "pages/process";
 @import "pages/cocktails";
 @import "pages/contact";
+@import "pages/tequilas";
 
 
 // Utilities (hacks)

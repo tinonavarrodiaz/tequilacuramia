@@ -4,9 +4,10 @@ import Footer from "../components/Footer";
 import BannerHome from "../components/BannerHome";
 import PageLinks from "../components/page-links";
 import ArticleText from "../components/ArticleText";
+import ArticleBottom from "../components/bottomContent";
 import Slogan from "../components/Slogan";
 import AOSInit from "../helpers/helpers";
-
+import Age from "./age"
 
 class Home extends Component  {
   constructor(props){
@@ -33,12 +34,14 @@ class Home extends Component  {
     return (
 
         <div>
+          <Age/>
           <HeaderFixed />
           <div className="home">
             <BannerHome/>
             <ArticleText/>
             <Slogan/>
             <PageLinks/>
+            <ArticleBottom pad="40px"/>
           </div>
           <Footer/>
         </div>

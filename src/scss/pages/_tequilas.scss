@@ -1,0 +1,142 @@
+.Tequilas{
+  .banner-top{
+    height: 75vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include from(l) {
+      height: 85vh;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    &::after{
+      content: "";
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(#000,.5)
+    }
+    h1{
+      position: absolute;
+      width: 100%;
+      height: auto;
+      color: #fff !important;
+      transform: translate(-50%);
+      text-align: center;
+      z-index: 20;
+      font-size: 1.3em;
+      letter-spacing:10px;
+      padding: 0 1em;
+      @include from(l) {
+        max-width: 800px;
+        font-size: 2.5em;
+      }
+    }
+  }
+  &__text{
+    padding: 50px 1em;
+    text-align: center;
+    @include from(l){
+      padding: 80px 10vw;
+
+    }
+  }
+  .ml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include from(l){
+      height: 750px !important;
+      // background-color: lime !important;
+      justify-content: space-between;
+      margin-bottom: 100px;
+    }
+  }
+  &__henm{
+    max-width:60px;
+    margin-bottom: 75px;
+    @include from(l){
+      max-width: 120px;
+      margin-bottom: 75px !important;
+    }
+  }
+  &__cml{
+    max-width: 200px;
+    margin-bottom: 40px;
+    @include from(l) {
+      max-width: 300px;
+    }
+  }
+  &__separator{
+    margin-bottom: 40px;
+    width: 3px;
+  }
+  &__logo{
+    max-width: 60px;
+    margin-bottom: 60px;
+    @include from(l) {
+      max-width: 120px;
+    }
+  }
+  &__botella{
+    width: 60px;
+    margin: 0 auto 40px;
+    @include from(l) {
+      width: auto !important;
+      height: 100%  !important;
+    }
+  }
+  &__notes{
+    position: relative;
+    .description{
+      @include from(l) {
+        padding-top: 75px;
+      }
+    }
+    .description,
+    .notes {
+      max-width: 90%;
+      margin: 0 auto 20px;
+      @include from(l){
+        width: 100%;
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__mark{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: -10%;
+    right: 0;
+    // opacity: .7;
+    z-index: -1;
+  }
+  .buynow{
+    max-width: 100px;
+    position: relative;
+    margin: 0 auto;
+    @include from(l) {
+      max-width: 200px;
+      margin: unset;
+      margin-top: 50px;
+      margin-left: 150px;
+    }
+  }
+
+}
+.Tequilas__description{
+  @include from(l) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 5vw;
+    padding: 0 15vw;
+    
+  }
+}

@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import AOSInit from "../helpers/helpers";
 import botella from "../assets/img/botella.png"
+import ArticleBottom from "../components/bottomContent";
 class About extends Component {
   constructor(props){
     super(props)
@@ -27,7 +28,7 @@ class About extends Component {
         <Header />
         <section className="section about">
           
-          <h2 className="section__title" data-aos="fade-left" >About Us</h2>
+          <h2 className="section__title" data-aos="fade-left" >La Leyenda</h2>
           
           
           <article className="section__banner">
@@ -72,6 +73,7 @@ class About extends Component {
             
           </article>
         </section>
+        <ArticleBottom back="#EDEAE6" pad="40px"/>
         <Footer />
       </div>
   )

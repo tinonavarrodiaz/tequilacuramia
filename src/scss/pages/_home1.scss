@@ -22,22 +22,36 @@
     object-position: center;
   }
   .text-con{
+    display: table;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 15vh;
+    left: 7.5%;
+    width: auto !important;
+    // transform: translate(-50%, -50%);
+    max-width: unset !important;
+    @include from(1400px){
+      bottom: 25vh;
 
+    }
+    @include to(l){
+      width: 100%;
+    }
   }
   h1, h2{
-    text-align: center;
+    // text-align: center;
     color: #fff;
+    margin-bottom: 0;
   }
   h1{
-    letter-spacing: 20px;
+    display: table;
+    letter-spacing: 2px;
     font-weight: normal;
     font-size: 1.3em;
+    width: auto;
+    line-height: 1;
+    font-family: var(--body-font) !important;
     @include from(m){
-      font-size: 2em;
+      font-size: 1.5em;
     }
     @include from(l){
       font-size: 2.5em;

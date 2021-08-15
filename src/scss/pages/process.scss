@@ -24,6 +24,12 @@
     padding: calc(var(--margin-bottom) * 1.2) calc(var(--padding) * 1.5) calc((var(--margin-bottom) * 1.2) - 3px);
     align-items: center;
     justify-content: end;
+    padding: 0 !important;
+    background: transparent !important;
+    margin-bottom: 0 !important;
+    img{
+      width: 100%;
+    }
   }
 }
 .brand{
@@ -35,6 +41,8 @@
   grid-template-columns: repeat(2, 1fr);
   background: #FFF5F1;
   padding: 50px calc(var(--padding) * 2);
+  margin: 0 auto !important;
+  background: transparent !important;
   @include to(l){
     display: flex;
     flex-direction: column;

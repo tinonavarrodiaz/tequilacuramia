@@ -6,14 +6,20 @@ import logo from "../assets/img/logo1_1.svg"
 import {
   NavLink
 } from "react-router-dom";
+import {MobileView} from "react-device-detect";
+import Social from './social'
+
 const Header = () => {
 
   return (
     <header className="main-header" id="mainHeader">
+      <Social></Social>
       <NavLink to="/" className="link">
         <img className="main-logo" src={logo} alt=""/>
       </NavLink>
-      <Hamburger />
+      <MobileView>
+        <Hamburger />
+      </MobileView>
       <nav className="main-nav" >
         <Menu />
       </nav>

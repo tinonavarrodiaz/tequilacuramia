@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {BrowserView, MobileView} from "react-device-detect";
 import Loader from "react-js-loader";
-import introText from "../assets/img/text-intro.png";
+// import introText from "../assets/img/text-intro.png";
 import intro from "../assets/img/intro.jpg"
 import './banner.scss'
 
@@ -15,7 +15,7 @@ class BannerHome extends Component {
             <Loader type="bubble-ping" bgColor={"#FFFFFF"} size={75} />
             {/* <Loader size="md" content="Medium" /> */}
             <video autoPlay loop id="video" muted="muted">
-              <source src="https://tinonavarrodiaz.github.io/video-curamia/curamia.mp4" type="video/mp4"/>
+              <source src="https://tinonavarrodiaz.github.io/video-curamia/8I5a0065-1.mp4" type="video/mp4"/>
             </video>
           </div>
         </BrowserView>
@@ -27,13 +27,16 @@ class BannerHome extends Component {
 
           </picture>
 
-          <div className="text-con" >
+          {/* <div className="text-con" >
             <img  data-aos="fade-left" className="text-intro" src={introText} alt="" />
-          {/* <img src={introText} alt=""> */}
+          <img src={introText} alt=""> */}
             {/* <h1 className="intro-title">A DELICATE<br />BALANCE</h1>
             <h2 className="intro-subtitle">Of excelence, beauty, wellness &<br />great memories.</h2> */}
-          </div>
+          {/* </div> */}
         </MobileView>
+        <div className="text-con" >
+          <h1 className="intro-title">LA MUJER MAS BELLA</h1>
+        </div>
       </div>
     )
   }

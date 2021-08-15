@@ -1,11 +1,15 @@
 .main-footer{
-  @extend %container-padding;
+  // @extend %container-padding;
   height: var(--footer-height);
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: lime !important;
+  .social{
+    bac
+  }
   @include from(l){
-    display: block;
+    // display: block;
   }
   img{
     height: 40px;
