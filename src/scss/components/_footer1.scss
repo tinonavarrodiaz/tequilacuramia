@@ -104,12 +104,19 @@
   }
   .social{
     display: flex;
+    @include to(l){
+      justify-content: space-around;
+    }
     li, a{
       height: 1em!important;
       width: 1em !important;
     }
     li{
       margin-right: 2.5em;
+      @include to(l)
+      {
+        margin-right: 0;
+      }
     }
     a{
       display: flex;

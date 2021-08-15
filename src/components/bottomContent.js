@@ -25,10 +25,11 @@ const ArticleBottom = (props)=>{
 
   return(
     <div class="bottomContent" style={{background: props.back, "--mbot":props.pad}}>
-      <img src={imgtext} className="textbutton" alt="" />
-
-      <NavLink to="/where-buy"><img src={imgfind} className="buttom-btn btn-find" alt="" /></NavLink>
-      <img src={imgorder} className="buttom-btn btn-order" alt="" />
+      <img src={imgtext} className="textbutton" alt="" data-aos="fade-right"/>
+      <div className="buttonCB">
+        <NavLink to="/where-buy" className="btnlin1"><img src={imgfind} data-aos="zoom-in" className="buttom-btn btn-find" alt="" /></NavLink>
+        <img src={imgorder} data-aos="zoom-in" className="btnlin1 buttom-btn btn-order" alt="" />
+      </div>
     </div>
   )
 }

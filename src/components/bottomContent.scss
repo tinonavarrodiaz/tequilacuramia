@@ -11,9 +11,14 @@
     justify-content:center;
     padding: calc(var(--mbot) * 4) 10vw calc(var(--mbot) * 4);
   }
+  
   .textbutton{
-    margin-bottom: var(--mbot);
+    margin-bottom: 0;
     @media screen and (min-width: 1024px) {
+      margin-right: 10vw;
+    }
+    @media screen and (max-width: 1024px) {
+      margin-bottom: var(--mbot) !important;
       margin-right: 10vw;
     }
   }
@@ -23,6 +28,9 @@
     @media screen and (min-width: 1024px) {
       max-width: 150px;
     }
+    img:last-of-type{
+      display: none;
+    }
   }
   .btn-find{
     margin-bottom: var(--mbot);
@@ -31,4 +39,16 @@
       margin-right: 3vw;
     }
   }
+  img{
+    margin-bottom:  0 !important;
+  }
+}
+.buttonCB{
+  display: flex;
+  a{
+    margin-right: 1.5em;
+  }
+}
+img.textbutton{
+  margin-bottom: 0 !important;
 }
