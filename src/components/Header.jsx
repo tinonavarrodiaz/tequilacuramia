@@ -10,7 +10,7 @@ import {MobileView} from "react-device-detect";
 import Social from './social'
 
 const Header = () => {
-
+  
   return (
     <header className="main-header" id="mainHeader">
       <Social></Social>

@@ -92,6 +92,9 @@
   svg{
     fill: var(--header-color);
   }
+  li a{
+    color: var(--header-color) !important;
+  }
 }
 .scroll-content{
   background: linear-gradient($body-bg 20%, #fff 20%);

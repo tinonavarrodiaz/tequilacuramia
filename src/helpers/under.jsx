@@ -5,8 +5,8 @@ import "./under.scss"
 const Under = ()=>{
 
   return(
-    <div className="under">
-      <Header></Header>
+    <div className="under" style={{"--header-color" : "#ed5e2b"}}>
+      <Header color="blue"></Header>
       <h1>Under Construction</h1>
       <Footer></Footer>
     </div>
