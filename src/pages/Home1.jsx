@@ -5,6 +5,7 @@ import BannerHome from "../components/BannerHome";
 import PageLinks from "../components/page-links";
 import ArticleText from "../components/ArticleText";
 import ArticleBottom from "../components/bottomContent";
+import Abuelabanner from "../components/Abuelabanner";
 import Slogan from "../components/Slogan";
 import AOSInit from "../helpers/helpers";
 import Age from "./age"
@@ -39,6 +40,7 @@ class Home extends Component  {
           <div className="home">
             <BannerHome/>
             <ArticleText/>
+            <Abuelabanner/>
             <Slogan/>
             <PageLinks/>
             <ArticleBottom pad="40px"/>
