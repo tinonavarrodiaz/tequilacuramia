@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tequilacuramia/static/css/main.ee9287fe.chunk.css",
-    "main.js": "/tequilacuramia/static/js/main.3a433ce9.chunk.js",
-    "main.js.map": "/tequilacuramia/static/js/main.3a433ce9.chunk.js.map",
+    "main.js": "/tequilacuramia/static/js/main.6187aa89.chunk.js",
+    "main.js.map": "/tequilacuramia/static/js/main.6187aa89.chunk.js.map",
     "runtime-main.js": "/tequilacuramia/static/js/runtime-main.33d56798.js",
     "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.33d56798.js.map",
     "static/css/2.2597ee6e.chunk.css": "/tequilacuramia/static/css/2.2597ee6e.chunk.css",
@@ -25,6 +25,7 @@
     "static/media/abuela5.7bf42d56.png": "/tequilacuramia/static/media/abuela5.7bf42d56.png",
     "static/media/abuelabanner.f3870ba3.png": "/tequilacuramia/static/media/abuelabanner.f3870ba3.png",
     "static/media/agave.b21b21dd.jpg": "/tequilacuramia/static/media/agave.b21b21dd.jpg",
+    "static/media/agave2.06377df5.jpg": "/tequilacuramia/static/media/agave2.06377df5.jpg",
     "static/media/botella.d711ce64.png": "/tequilacuramia/static/media/botella.d711ce64.png",
     "static/media/coc1.95e99f7a.jpg": "/tequilacuramia/static/media/coc1.95e99f7a.jpg",
     "static/media/coc2.8454b145.jpg": "/tequilacuramia/static/media/coc2.8454b145.jpg",
@@ -65,14 +66,13 @@
     "static/media/slider4.36ba70a0.jpg": "/tequilacuramia/static/media/slider4.36ba70a0.jpg",
     "static/media/slider5.3568e0d8.jpg": "/tequilacuramia/static/media/slider5.3568e0d8.jpg",
     "static/media/slider6.c702eeb4.jpg": "/tequilacuramia/static/media/slider6.c702eeb4.jpg",
-    "static/media/twitter.13f8396f.svg": "/tequilacuramia/static/media/twitter.13f8396f.svg",
-    "static/media/valvula1.bdeab902.jpg": "/tequilacuramia/static/media/valvula1.bdeab902.jpg"
+    "static/media/twitter.13f8396f.svg": "/tequilacuramia/static/media/twitter.13f8396f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.33d56798.js",
     "static/css/2.2597ee6e.chunk.css",
     "static/js/2.977508bb.chunk.js",
     "static/css/main.ee9287fe.chunk.css",
-    "static/js/main.3a433ce9.chunk.js"
+    "static/js/main.6187aa89.chunk.js"
   ]
 }
