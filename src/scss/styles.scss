@@ -132,3 +132,21 @@ body {
 .logo-c{
   width: 60%;
 }
+@include to(l){
+  .menu a{
+    --header-color: #8C8C8C !important;
+    color: #8C8C8C !important;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .main-nav.menu__close{
+    top: 1em !important;
+    right: 1em !important;
+  }
+  .footer-Right{
+    transform: translateX(-.5em);
+  }
+  .footer-Right > a{
+    display: none;
+  }
+}
