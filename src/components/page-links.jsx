@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 // import imagesHome from "../assets/images_home";
 import {NavLink} from "react-router-dom";
-import valvula from "../assets/img/valvula1.jpg";
+// import valvula from "../assets/img/valvula1.jpg";
 import coctel from "../assets/img/coctel.jpg";
+import agave2 from "../assets/img/agave2.jpg";
 import mapa from "../assets/img/mapa.jpg";
 
 
@@ -18,7 +19,7 @@ class PageLinks extends Component{
           <NavLink to="/cocktails">Learn more</NavLink>
         </figure>
         <figure className="link-page--item" data-aos="zoom-in" data-aos-delay="100" data-aos-offset="300">
-          <img src={valvula} alt="" />
+          <img src={agave2} alt="" />
           <figcaption>THE PROCESS</figcaption>
           <p>Join us on a journey of how<br />Curamia® Tequila is made.<br />From the fields to your glass!.</p>
           <NavLink to="/process">Learn more</NavLink>
