@@ -27,6 +27,9 @@ class Age extends Component {
 
       this.setState({showAcces: "show"})
       document.body.style.overflowY='hidden'
+    }else{
+      document.querySelector('.bodyContent').style.opacity="1"
+      if (document.querySelector('#video')) document.querySelector('#video').play()
     }
   }
   click(e){
@@ -34,6 +37,8 @@ class Age extends Component {
     if(e.target.dataset.action==="yes"){
       this.setState({showAcces: "hidden"})
       document.body.style.overflowY='auto'
+      document.querySelector('.bodyContent').style.opacity="1"
+      if (document.querySelector('#video')) document.querySelector('#video').play()
       if (this.state.check) localStorage.setItem('access','true')
       window.scrollTo(0,0)
     }

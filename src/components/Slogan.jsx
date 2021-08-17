@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import imagesHome from "../assets/images_home";
+// import imagesHome from "../assets/images_home";
 
 class Slogan extends Component {
   render() {

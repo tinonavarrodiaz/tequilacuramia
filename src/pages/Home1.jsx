@@ -36,16 +36,18 @@ class Home extends Component  {
 
         <div>
           <Age/>
-          <HeaderFixed />
-          <div className="home">
-            <BannerHome/>
-            <ArticleText/>
-            <Abuelabanner/>
-            <Slogan/>
-            <PageLinks/>
-            <ArticleBottom pad="40px"/>
+          <div className="bodyContent">
+            <HeaderFixed />
+            <div className="home">
+              <BannerHome/>
+              <ArticleText/>
+              <Abuelabanner/>
+              <Slogan/>
+              <PageLinks/>
+              <ArticleBottom pad="40px"/>
+            </div>
+            <Footer/>
           </div>
-          <Footer/>
         </div>
     )
   }

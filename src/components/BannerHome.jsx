@@ -14,7 +14,7 @@ class BannerHome extends Component {
             {/* <p style={{color:'#fff'}}>loading</p> */}
             <Loader type="bubble-ping" bgColor={"#FFFFFF"} size={75} />
             {/* <Loader size="md" content="Medium" /> */}
-            <video autoPlay loop id="video" muted="muted">
+            <video loop id="video" muted="muted">
               <source src="https://tinonavarrodiaz.github.io/video-curamia/8I5a0065-1.mp4" type="video/mp4"/>
             </video>
           </div>

@@ -24,7 +24,7 @@ const ArticleBottom = (props)=>{
   }
 
   return(
-    <div class="bottomContent" style={{background: props.back, "--mbot":props.pad}}>
+    <div className="bottomContent" style={{background: props.back, "--mbot":props.pad}}>
       <img src={imgtext} className="textbutton" alt="" data-aos="fade-right"/>
       <div className="buttonCB">
         <NavLink to="/where-buy" className="btnlin1"><img src={imgfind} data-aos="zoom-in" className="buttom-btn btn-find" alt="" /></NavLink>

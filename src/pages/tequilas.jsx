@@ -52,9 +52,9 @@ class Tequilas extends Component  {
               <img data-aos="fade-in" src={agave} alt=""/>
               <h1 data-aos="zoom-in">CURAMIA THE MOST BEAUTIFUL TEQUILA</h1>
             </div>
-            <article data-aos="fade-right" className="Tequilas__text">
+            {/* <article data-aos="fade-right" className="Tequilas__text">
               <p>Curamia’s exceptionally smooth taste - clean, extra-soft, herbal finishes - is a result of our commitment to simplicity and sustainability, as well as authenticity and craftsmanship. Our liquid extraction model is recognized by the tequila regulatory council for its sustainability - utilizing steam and water for the purest taste (and cleanest process) possible. In short, Curamia is as beautiful on the inside as it is on the out - not an easy feat when the packaging is so stylish. Our process begins at the top of the volcano of tequila, when natural spring water trickles down the rugged cliffs to the underground wells below - natural aquifers, 70-meters beneath the earth’s surface. The volcanic soil enriches the water with essential minerals, which is  harmonized with our tequila through a proprietary process. This combination of authenticity and craftsmanship, of heritage and  innovation, is at the very heart of Curamia Tequila.</p>
-            </article>
+            </article> */}
             <article className="ml">
               <img className="Tequilas__henm" data-aos="zoom-in" src={henm} alt=""/>
               <img className="Tequilas__cml" data-aos="zoom-in" data-delay="100" src={clm} alt=""/>
@@ -62,11 +62,19 @@ class Tequilas extends Component  {
               <img className="Tequilas__logo" data-aos="zoom-in" data-delay="300"  src={logo} alt=""/>
             </article>
             <article className="Tequilas__description">
-                <img className="Tequilas__botella" data-aos="zoom-in"  src={botella} alt=""/>
+              <div className="Tequilas__bottle-container">
+                <img className="Tequilas__botella"  src={botella} alt=""/>
+              </div>
               <div className="Tequilas__notes">
-                <img className="description" data-aos="zoom-in" data-delay="100" src={description} alt=""/>
-                <img className="notes" src={notes} data-aos="zoom-in" data-delay="200" alt=""/>
-                <img className="buynow" data-aos="fade-right" data-delay="300" src={buy} alt=""/>
+              <div className="img1">
+                <img className="description" data-delay="100" src={description} alt=""/>
+              </div>
+              <div className="img1">
+                <img className="notes" src={notes} data-delay="200" alt=""/>
+              </div>
+              <div class="img-buy">                <img className="buynow" data-delay="300" src={buy} alt=""/>
+
+              </div>
                 <img className="Tequilas__mark" src={mark} alt=""/>
               </div>
             </article>

@@ -21,6 +21,10 @@ class About extends Component {
     // console.log(e.offset.y)
     this.setState({scroll: e.offset.y})
   }
+  loadImg(e){
+    console.log(e)
+    e.target.style.opacity = 1
+  }
   render() {
   return (
     
@@ -32,7 +36,7 @@ class About extends Component {
           
           
           <article className="section__banner">
-            <img src={imagesAbout.img1} className="section__banner-image" alt="banner" />
+            <img onLoad={this.loadImg} style={{opacity: "0", transition: "all 1s"}} src={imagesAbout.img1} className="section__banner-image" alt="banner" />
           </article>
           
           <article className="about__container">

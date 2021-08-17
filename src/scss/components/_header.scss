@@ -19,9 +19,20 @@
     height: 1em !important;
     width: 1em !important;
   }
+  a{
+    margin: 0 auto;
+  }
+  @include to(l){
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
   li {
     margin-right: 2.5em;
+    &:last-child{
+      margin-right: 0;
+    }
   }
 
   a {

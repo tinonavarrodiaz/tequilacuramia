@@ -5,7 +5,7 @@ import abuela3 from "../assets/img/abuela3.png";
 import abuela4 from "../assets/img/abuela4.png";
 import abuela5 from "../assets/img/abuela5.png";
 import abuelabanner from "../assets/img/abuelabanner.png";
-import AOSInit from "../helpers/helpers";
+// import AOSInit from "../helpers/helpers";
 import "./abuelabanner.scss"
 
 const Abuelabanner = ()=>{

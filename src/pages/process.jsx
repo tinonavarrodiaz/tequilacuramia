@@ -24,6 +24,9 @@ class Process extends Component {
     this.setState({scroll: e.offset.y})
     console.log(`scroll: ${this.state.scroll}`)
   }
+  loadImg(e){
+    e.target.style.opacity = 1
+  }
   render() {
   return (
     // <Scrollbar
@@ -41,7 +44,7 @@ class Process extends Component {
         <section className="section process">
           <h2 className="section__title" data-aos="fade-left" data-aos-offset="300">Our process</h2>
           <article className="section__banner">
-            <img src={imgs.img1} className="section__banner-image" alt="banner"  data-aos=""/>
+            <img src={imgs.img1} onLoad={this.loadImg} style={{opacity: "0", transition: "all 1s"}}  className="section__banner-image" alt="banner"  data-aos=""/>
           </article>
           <article className="process__text">
 
