@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tequilacuramia/static/css/main.fa4de266.chunk.css",
-    "main.js": "/tequilacuramia/static/js/main.a7c56208.chunk.js",
-    "main.js.map": "/tequilacuramia/static/js/main.a7c56208.chunk.js.map",
+    "main.js": "/tequilacuramia/static/js/main.323534cc.chunk.js",
+    "main.js.map": "/tequilacuramia/static/js/main.323534cc.chunk.js.map",
     "runtime-main.js": "/tequilacuramia/static/js/runtime-main.94fdc084.js",
     "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.94fdc084.js.map",
     "static/css/2.2597ee6e.chunk.css": "/tequilacuramia/static/css/2.2597ee6e.chunk.css",
@@ -14,6 +14,15 @@
     "static/css/2.2597ee6e.chunk.css.map": "/tequilacuramia/static/css/2.2597ee6e.chunk.css.map",
     "static/css/main.fa4de266.chunk.css.map": "/tequilacuramia/static/css/main.fa4de266.chunk.css.map",
     "static/js/2.d4283dbe.chunk.js.LICENSE.txt": "/tequilacuramia/static/js/2.d4283dbe.chunk.js.LICENSE.txt",
+    "static/media/01.19956bf9.jpg": "/tequilacuramia/static/media/01.19956bf9.jpg",
+    "static/media/02.981dc43f.jpg": "/tequilacuramia/static/media/02.981dc43f.jpg",
+    "static/media/03.3639c3d0.jpg": "/tequilacuramia/static/media/03.3639c3d0.jpg",
+    "static/media/04.537747af.jpg": "/tequilacuramia/static/media/04.537747af.jpg",
+    "static/media/05.4d17910a.jpg": "/tequilacuramia/static/media/05.4d17910a.jpg",
+    "static/media/06.18a1edbe.jpg": "/tequilacuramia/static/media/06.18a1edbe.jpg",
+    "static/media/07.c0c65112.jpg": "/tequilacuramia/static/media/07.c0c65112.jpg",
+    "static/media/08.96b7c1eb.jpg": "/tequilacuramia/static/media/08.96b7c1eb.jpg",
+    "static/media/09.e4043a17.jpg": "/tequilacuramia/static/media/09.e4043a17.jpg",
     "static/media/12.4bc45589.jpg": "/tequilacuramia/static/media/12.4bc45589.jpg",
     "static/media/about-bottle.d3e14acf.png": "/tequilacuramia/static/media/about-bottle.d3e14acf.png",
     "static/media/about1.4bed2800.jpg": "/tequilacuramia/static/media/about1.4bed2800.jpg",
@@ -70,6 +79,6 @@
     "static/css/2.2597ee6e.chunk.css",
     "static/js/2.d4283dbe.chunk.js",
     "static/css/main.fa4de266.chunk.css",
-    "static/js/main.a7c56208.chunk.js"
+    "static/js/main.323534cc.chunk.js"
   ]
 }
