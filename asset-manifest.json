@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tequilacuramia/static/css/main.ee9287fe.chunk.css",
-    "main.js": "/tequilacuramia/static/js/main.6187aa89.chunk.js",
-    "main.js.map": "/tequilacuramia/static/js/main.6187aa89.chunk.js.map",
-    "runtime-main.js": "/tequilacuramia/static/js/runtime-main.33d56798.js",
-    "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.33d56798.js.map",
+    "main.css": "/tequilacuramia/static/css/main.fc3e8095.chunk.css",
+    "main.js": "/tequilacuramia/static/js/main.4e39da1d.chunk.js",
+    "main.js.map": "/tequilacuramia/static/js/main.4e39da1d.chunk.js.map",
+    "runtime-main.js": "/tequilacuramia/static/js/runtime-main.94fdc084.js",
+    "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.94fdc084.js.map",
     "static/css/2.2597ee6e.chunk.css": "/tequilacuramia/static/css/2.2597ee6e.chunk.css",
-    "static/js/2.977508bb.chunk.js": "/tequilacuramia/static/js/2.977508bb.chunk.js",
-    "static/js/2.977508bb.chunk.js.map": "/tequilacuramia/static/js/2.977508bb.chunk.js.map",
-    "static/js/3.492cc653.chunk.js": "/tequilacuramia/static/js/3.492cc653.chunk.js",
-    "static/js/3.492cc653.chunk.js.map": "/tequilacuramia/static/js/3.492cc653.chunk.js.map",
+    "static/js/2.d4283dbe.chunk.js": "/tequilacuramia/static/js/2.d4283dbe.chunk.js",
+    "static/js/2.d4283dbe.chunk.js.map": "/tequilacuramia/static/js/2.d4283dbe.chunk.js.map",
+    "static/js/3.5aa39d87.chunk.js": "/tequilacuramia/static/js/3.5aa39d87.chunk.js",
+    "static/js/3.5aa39d87.chunk.js.map": "/tequilacuramia/static/js/3.5aa39d87.chunk.js.map",
     "index.html": "/tequilacuramia/index.html",
     "static/css/2.2597ee6e.chunk.css.map": "/tequilacuramia/static/css/2.2597ee6e.chunk.css.map",
-    "static/css/main.ee9287fe.chunk.css.map": "/tequilacuramia/static/css/main.ee9287fe.chunk.css.map",
-    "static/js/2.977508bb.chunk.js.LICENSE.txt": "/tequilacuramia/static/js/2.977508bb.chunk.js.LICENSE.txt",
+    "static/css/main.fc3e8095.chunk.css.map": "/tequilacuramia/static/css/main.fc3e8095.chunk.css.map",
+    "static/js/2.d4283dbe.chunk.js.LICENSE.txt": "/tequilacuramia/static/js/2.d4283dbe.chunk.js.LICENSE.txt",
     "static/media/12.4bc45589.jpg": "/tequilacuramia/static/media/12.4bc45589.jpg",
     "static/media/about-bottle.d3e14acf.png": "/tequilacuramia/static/media/about-bottle.d3e14acf.png",
     "static/media/about1.4bed2800.jpg": "/tequilacuramia/static/media/about1.4bed2800.jpg",
@@ -69,10 +69,10 @@
     "static/media/twitter.13f8396f.svg": "/tequilacuramia/static/media/twitter.13f8396f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.33d56798.js",
+    "static/js/runtime-main.94fdc084.js",
     "static/css/2.2597ee6e.chunk.css",
-    "static/js/2.977508bb.chunk.js",
-    "static/css/main.ee9287fe.chunk.css",
-    "static/js/main.6187aa89.chunk.js"
+    "static/js/2.d4283dbe.chunk.js",
+    "static/css/main.fc3e8095.chunk.css",
+    "static/js/main.4e39da1d.chunk.js"
   ]
 }
