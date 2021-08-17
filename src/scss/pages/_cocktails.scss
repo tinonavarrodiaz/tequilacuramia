@@ -58,7 +58,7 @@
     @extend %list-style;
     display: flex;
     position: absolute;
-    bottom: 2em;
+    bottom: 0em;
     right: 2em;
     z-index: 20;
     @include from(1400px){
