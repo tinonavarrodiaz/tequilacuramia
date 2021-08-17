@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Header from "../components/Header";
 import AOSInit from "../helpers/helpers";
 import imagesHome from '../assets/images_home';
+import ImagesCocktails  from "../assets/images-cocktails"
 
 
 class Cocktails extends Component {
@@ -23,19 +24,18 @@ class Cocktails extends Component {
     let bull = [...document.querySelectorAll('.bullets li')]
     let cocktails = [...document.querySelectorAll('.cocktail')]
     let total = cocktails.length
-    setInterval(() => {
-      let active = parseInt(document.querySelector('.bullets .active').dataset.index)
-      console.log(total,active)
+    cocktails.map(el=>el.addEventListener('click', function(){
+      let index = cocktails.indexOf(el)
       bull.map(el=>el.classList.remove('active'))
       cocktails.map(el=>el.classList.remove('active'))
-      if(active === total - 1){
-        bull[0].classList.add('active')
+      if (index === total - 1){
         cocktails[0].classList.add('active')
+        bull[0].classList.add('active')
       }else{
-        bull[active + 1].classList.add('active')
-        cocktails[active + 1].classList.add('active')
+        cocktails[index+1].classList.add('active')
+        bull[index+1].classList.add('active')
       }
-    }, 7000);
+    }))
   }
 
   bullActive = (e) =>{
@@ -79,10 +79,61 @@ class Cocktails extends Component {
                 <li onClick={this.bullActive} data-index="5"></li>
                 <li onClick={this.bullActive} data-index="6"></li>
                 <li onClick={this.bullActive} data-index="7"></li>
+                <li onClick={this.bullActive} data-index="8"></li>
               </ul>
               <div className="map cocktail active">
                 <div className="img">
-                  <img src={imagesHome.coc1} alt=""/>
+                  <img src={ImagesCocktails.img1} alt=""/>
+                </div>
+                <div className="cocktail-text">
+                  <h2 className="cocktail-name">ESTELA</h2>
+                  <ul className="receta">
+                    <li>- Coarse salt, for optional rima</li>
+                    <li>- 1 ½ ounces Curamia Tequila</li>
+                    <li>- ½ ounce fresh lime juicea</li>
+                    <li>- ½ ounce fresh lemon juicet</li>
+                    <li>- ½ ounce fresh grapefruit juice</li>
+                    <li>- 2 ounce club soda</li>
+                    <li>- Lemon, lime and orange wedge for garnish</li>
+
+                  </ul>
+                </div>
+              </div>
+              <div className="map cocktail ">
+                <div className="img">
+                  <img src={ImagesCocktails.img2} alt=""/>
+                </div>
+                <div className="cocktail-text">
+                  <h2 className="cocktail-name">SPICY MARGARITA</h2>
+                  <ul className="receta">
+                    <li>- 2oz Curamia</li>
+                    <li>- 1oz Lime Juice</li>
+                    <li>- .5oz Chili infused Aperol</li>
+                    <li>- .5oz Agave </li>
+                    <li>- Top off with Topo Chico</li>
+                    <li>- Garnish: Lime/Pink Salt</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="map cocktail ">
+                <div className="img">
+                  <img src={ImagesCocktails.img3} alt=""/>
+                </div>
+                <div className="cocktail-text">
+                  <h2 className="cocktail-name">PALOMA</h2>
+                  <ul className="receta">
+                    <li>- 2oz Curamia</li>
+                    <li>- 1oz Pink Grapefruit Juice</li>
+                    <li>- .5oz Lime Juice</li>
+                    <li>- .5oz Simple</li>
+                    <li>- 2-3oz Club</li>
+                    <li>- Garnish : Salted rim/slice grapefruit/pepper</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="map cocktail">
+                <div className="img">
+                  <img src={ImagesCocktails.img4} alt=""/>
                 </div>
                 <div className="cocktail-text">
                   <h2 className="cocktail-name">MARIA</h2>
@@ -101,22 +152,7 @@ class Cocktails extends Component {
               </div>
               <div className="map cocktail ">
                 <div className="img">
-                  <img src={imagesHome.coc2} alt=""/>
-                </div>
-                <div className="cocktail-text">
-                  <h2 className="cocktail-name">JULIANA</h2>
-                  <ul className="receta">
-                    <li>- 1.5oz Curamia</li>
-                    <li>- .5oz Lime Juice</li>
-                    <li>- 2oz Watermelon Juice/Puree</li>
-                    <li>- .5oz Rosewater Agave</li>
-                    <li>- Garnish: Dried ose petals/watermelon</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="map cocktail ">
-                <div className="img">
-                  <img src={imagesHome.coc3} alt=""/>
+                  <img src={ImagesCocktails.img5} alt=""/>
                 </div>
                 <div className="cocktail-text">
                   <h2 className="cocktail-name">TROPICO</h2>
@@ -131,41 +167,27 @@ class Cocktails extends Component {
                   </ul>
                 </div>
               </div>
+              
               <div className="map cocktail ">
                 <div className="img">
-                  <img src={imagesHome.coc4} alt=""/>
+                  <img src={ImagesCocktails.img6} alt=""/>
                 </div>
                 <div className="cocktail-text">
-                  <h2 className="cocktail-name">PALOMA</h2>
+                  <h2 className="cocktail-name">JULIANA</h2>
                   <ul className="receta">
-                    <li>- 2oz Curamia</li>
-                    <li>- 1oz Pink Grapefruit Juice</li>
+                    <li>- 1.5oz Curamia</li>
                     <li>- .5oz Lime Juice</li>
-                    <li>- .5oz Simple</li>
-                    <li>- 2-3oz Club</li>
-                    <li>- Garnish : Salted rim/slice grapefruit/pepper</li>
+                    <li>- 2oz Watermelon Juice/Puree</li>
+                    <li>- .5oz Rosewater Agave</li>
+                    <li>- Garnish: Dried ose petals/watermelon</li>
                   </ul>
                 </div>
               </div>
+              
+              
               <div className="map cocktail ">
                 <div className="img">
-                  <img src={imagesHome.coc5} alt=""/>
-                </div>
-                <div className="cocktail-text">
-                  <h2 className="cocktail-name">SPICY MARGARITA</h2>
-                  <ul className="receta">
-                    <li>- 2oz Curamia</li>
-                    <li>- 1oz Lime Juice</li>
-                    <li>- .5oz Chili infused Aperol</li>
-                    <li>- .5oz Agave </li>
-                    <li>- Top off with Topo Chico</li>
-                    <li>- Garnish: Lime/Pink Salt</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="map cocktail ">
-                <div className="img">
-                  <img src={imagesHome.coc6} alt=""/>
+                  <img src={ImagesCocktails.img7} alt=""/>
                 </div>
                 <div className="cocktail-text">
                   <h2 className="cocktail-name">VIOLETA</h2>
@@ -180,7 +202,7 @@ class Cocktails extends Component {
               </div>
               <div className="map cocktail ">
                 <div className="img">
-                  <img src={imagesHome.coc7} alt=""/>
+                  <img src={ImagesCocktails.img8} alt=""/>
                 </div>
                 <div className="cocktail-text">
                   <h2 className="cocktail-name">ELEGANTE</h2>
@@ -197,7 +219,7 @@ class Cocktails extends Component {
               </div>
               <div className="map cocktail ">
                 <div className="img">
-                  <img src={imagesHome.coc8} alt=""/>
+                  <img src={ImagesCocktails.img9} alt=""/>
                 </div>
                 <div className="cocktail-text">
                   <h2 className="cocktail-name">THE BREW</h2>
