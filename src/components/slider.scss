@@ -1,11 +1,11 @@
 .Slider{
   &-container{
     background: #FFF5F1;
-    padding: 1.5em 1.5em 1em;
+    padding: 1.5em 0 1em;
   }
   position: relative;
-  background: burlywood;
   width: 100%;
+  margin-top: -100px;
   &__item{
     position: absolute;
     left: 0;
@@ -15,7 +15,6 @@
     height: 45vw;
     object-fit: cover;
     object-position: center;
-    background-color: blue;
     transition: opacity .5s;
     visibility: hidden;
     @media  screen and (max-width:1023px) {
@@ -40,18 +39,22 @@
   padding-left: 0;
   margin-bottom: 0;
   display: flex;
-  justify-content: flex-end;
-  margin-top: 1em;
+  justify-content: center;
+  margin-top: 0;
+  transform: translateY(-400%);
   li{
     $size: .5em;
     display: block;
     width: $size;
     height: $size;
-    background-color: var(--color-second);
+    background-color: #fdfdfd;
     margin-right: .5em;
     border-radius: 50%;
     &.active{
       background-color: var(--color-main)
     }
   }
+}
+.bullets-cocktails{
+  transform: unset;
 }

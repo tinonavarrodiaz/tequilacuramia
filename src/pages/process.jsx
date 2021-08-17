@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import imgs from '../assets/images_process';
 // import { Scrollbar } from 'smooth-scrollbar-react';
-// import Slider from "../components/Slider";
+import Slider from "../components/Slider";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import AOSInit from "../helpers/helpers";
-import flor from "../assets/img/12.jpg"
+
 import ArticleBottom from "../components/bottomContent";
 class Process extends Component {
   constructor(props){
@@ -53,16 +53,16 @@ class Process extends Component {
             
           </article>
           <article className="process__box " style={{display: 'block'}} >
-            <img data-aos="fade" src={flor} alt=""/>
-            {/* <Slider/> */}
+            {/* <img data-aos="fade" src={flor} alt=""/> */}
+            <Slider/>
 
           </article>
           <article className="brand" >
 
-            <div data-aos="fade-right" data-aos-offset="300" className="logo-c">
+            <div data-aos="fade-right" data-aos-offset="100" className="logo-c">
             <Logo/>
             </div>
-            <p className="brand__slogan" data-aos="fade-left" data-aos-offset="300">A MEXICAN<br/>LEGACY</p>
+            <p className="brand__slogan" data-aos="fade-left" data-aos-offset="100">A MEXICAN<br/>LEGACY</p>
           </article>
         </section>
         <ArticleBottom alt="true" back="#ed5e2b" pad="50px"/>

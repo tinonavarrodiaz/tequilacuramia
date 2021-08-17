@@ -1,5 +1,6 @@
 import React, { Component } from "react"; 
 import imgs from '../assets/images_process';
+import flor from "../assets/img/12.jpg"
 import "./slider.scss";
 
 
@@ -67,14 +68,15 @@ class Slider extends Component {
   }
   render(){ 
     return(
-      <div className="Slider-container">
+      <div className="Slider-container" data-aos="fade-left">
         <div className="Slider" id="sliderNH" >
-          <img src={imgs.slider1} onClick={this.nextImg} data-index="0" className="Slider__item active" alt="banner" />
-          <img src={imgs.slider2} onClick={this.nextImg} data-index="1" className="Slider__item" alt="banner" />
-          <img src={imgs.slider3} onClick={this.nextImg} data-index="2" className="Slider__item" alt="banner" />
-          <img src={imgs.slider4} onClick={this.nextImg} data-index="3" className="Slider__item" alt="banner" />
-          <img src={imgs.slider5} onClick={this.nextImg} data-index="4" className="Slider__item" alt="banner" />
-          <img src={imgs.slider6} onClick={this.nextImg} data-index="5" className="Slider__item" alt="banner" />
+          <img src={flor} onClick={this.nextImg} data-index="0" className="Slider__item active" alt="banner" />
+          <img src={imgs.slider1} onClick={this.nextImg} data-index="1" className="Slider__item" alt="banner" />
+          <img src={imgs.slider2} onClick={this.nextImg} data-index="2" className="Slider__item" alt="banner" />
+          <img src={imgs.slider3} onClick={this.nextImg} data-index="3" className="Slider__item" alt="banner" />
+          <img src={imgs.slider4} onClick={this.nextImg} data-index="4" className="Slider__item" alt="banner" />
+          <img src={imgs.slider5} onClick={this.nextImg} data-index="5" className="Slider__item" alt="banner" />
+          <img src={imgs.slider6} onClick={this.nextImg} data-index="6" className="Slider__item" alt="banner" />
         </div>
         <ul className="bullets bullets-slider">
           <li style={{cursor: "pointer"}} onClick={this.bullActive} data-index="0" className="bull active"></li>
@@ -83,6 +85,7 @@ class Slider extends Component {
           <li style={{cursor: "pointer"}} onClick={this.bullActive} data-index="3" className="bull"></li>
           <li style={{cursor: "pointer"}} onClick={this.bullActive} data-index="4" className="bull"></li>
           <li style={{cursor: "pointer"}} onClick={this.bullActive} data-index="5" className="bull"></li>
+          <li style={{cursor: "pointer"}} onClick={this.bullActive} data-index="6" className="bull"></li>
         </ul>
       </div>
     )

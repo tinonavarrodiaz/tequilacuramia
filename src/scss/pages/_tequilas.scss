@@ -60,26 +60,26 @@
   }
   &__henm{
     max-width:60px;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
     @include from(l){
       max-width: 120px;
-      margin-bottom: 75px !important;
+      margin-bottom: 150px !important;
     }
   }
   &__cml{
     max-width: 200px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     @include from(l) {
       max-width: 300px;
     }
   }
   &__separator{
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     width: 3px;
   }
   &__logo{
     max-width: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 140px;
     @include from(l) {
       max-width: 120px;
     }
@@ -90,6 +90,7 @@
     @include from(l) {
       width: auto !important;
       height: 100%  !important;
+      margin: 0 auto;
     }
   }
   &__notes{
@@ -107,6 +108,13 @@
         width: 100%;
         margin-bottom: 0;
       }
+    }
+    .notes{
+      // @include from(l) {
+
+      //   padding-top: 100px;
+      //   padding-bottom: 100px;
+      // }
     }
   }
   &__mark{
@@ -134,9 +142,11 @@
 .Tequilas__description{
   @include from(l) {
     display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 5vw;
+    grid-template-columns: 25% 1fr;
+    grid-gap: 50px;
     padding: 0 15vw;
-    
+    margin-top: 200px;
+    height: auto;
+    // background-color: lime;
   }
 }
