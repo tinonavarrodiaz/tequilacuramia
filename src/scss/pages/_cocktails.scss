@@ -97,7 +97,7 @@
       .bullets{
         height: .75em;
         bottom: unset;
-        top: 0;
+        top: 18%;
         right: unset;
         width: 100%;
         justify-content: center;
@@ -137,7 +137,7 @@
         height: 100%;
         display: block;
         object-fit: cover;
-        object-position: center;
+        object-position: left;
       }
     }
     .sidebar::before{

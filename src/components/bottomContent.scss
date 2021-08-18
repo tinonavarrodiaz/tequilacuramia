@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   padding: calc(var(--mbot) * 2.5) 2em;
+  // background-color: lime;
   @media screen and (min-width: 1024px) {
     flex-direction: row;
     justify-content:center;
@@ -22,6 +23,7 @@
     @media screen and (max-width: 1024px) {
       margin-bottom: var(--mbot) !important;
       margin-right: 0;
+      margin-left: 3px;
     }
   }
   .buttom-btn{
@@ -39,6 +41,7 @@
     @media screen and (min-width: 1024px) {
       margin-bottom: 0;
       margin-right: 3vw;
+      margin-left: 3px;
     }
   }
   img{

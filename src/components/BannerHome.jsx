@@ -4,12 +4,27 @@ import Loader from "react-js-loader";
 // import introText from "../assets/img/text-intro.png";
 import intro from "../assets/img/intro1.jpg"
 import './banner.scss'
-
+import audioIcon from "../assets/img/bocina.png"
+import video from "../assets/videofinal.mp4"
 class BannerHome extends Component {
   constructor(props) {
     super(props);
     this.state= {
-      src : 'https://tinonavarrodiaz.github.io/video-curamia/8I5a0065-1.mp4'
+      src : 'https://tinonavarrodiaz.github.io/video-curamia/Videofinal-1.mp4'
+    }
+  }
+  mute(e){
+    let Target = e.target;
+    let video = document.getElementById('video')
+    if (Target.nodeName==="IMG"){
+      Target.parentElement.classList.toggle('off')
+    }else{
+      Target.classList.toggle('off')
+    }
+    if(document.querySelector('.audio-icon').classList.contains('off')){
+      video.muted= true
+    }else{
+      video.muted= false
     }
   }
   showVideo(e){
@@ -23,7 +38,7 @@ class BannerHome extends Component {
         Modal.innerHTML = `
           <div class="modal-close-button"></div>
           <video id="videoM" controls>
-            <source src="https://tinonavarrodiaz.github.io/video-curamia/8I5a0065-1.mp4" type="video/mp4"/>
+            <source src="https://tinonavarrodiaz.github.io/video-curamia/8I5a0065-movil.mp4" type="video/mp4"/>
           </video>
         `
         document.body.appendChild(Modal)
@@ -47,9 +62,10 @@ class BannerHome extends Component {
             {/* <p style={{color:'#fff'}}>loading</p> */}
             <Loader type="bubble-ping" bgColor={"#FFFFFF"} size={75} />
             {/* <Loader size="md" content="Medium" /> */}
-            <video loop id="video" muted="muted">
-              <source src={this.state.src} type="video/mp4"/>
+            <video loop id="video">
+              <source src={video} type="video/mp4"/>
             </video>
+            
           </div>
         </BrowserView>
         <MobileView>
@@ -69,6 +85,9 @@ class BannerHome extends Component {
         </MobileView>
         <div className="text-con" >
           <h1 className="intro-title">LA MUJER MAS BELLA</h1>
+        </div>
+        <div onClick={this.mute} className="audio-icon">
+            <img src={audioIcon} alt=""/>
         </div>
       </div>
     )

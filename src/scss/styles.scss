@@ -157,7 +157,7 @@ body {
   left: 0 !important;
   height: 100vh !important;
   width: 100%;
-  background: rgba(#fff, .75) !important;
+  background: rgba(#000, .75) !important;
   padding: 0  1em !important;
   display: flex;
   flex-direction: column;
@@ -171,7 +171,7 @@ body {
   }
 }
 .modal-close-button {
-  $size: 3em;
+  $size: 4em;
   position: absolute;
   height:$size;
   width:$size;
@@ -183,13 +183,47 @@ body {
     position: absolute;
     top: 0;
     left: 50%;
-    width: 1px;
+    width: 2px;
     height: 100%;
-    background-color: #000;
+    background-color: #fff;
     transform: translateX(-50%) rotate(45deg);
   }
   &::after{
     transform: translateX(-50%) rotate(-45deg);
     
+  }
+}
+.audio-icon{
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  bottom: 2em;
+  left: 2em;
+  z-index: 1000;
+  opacity: .75;
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  &.off{
+    &::before, &::after{
+      content: "";
+      display: block;
+      height: 100%;
+      width: 2px;
+      background-color: darkred;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform-origin: center;
+      transform: translateX(-50%) rotate(-45deg)
+    }
+    &::after {
+      transform: translateX(-50%) rotate(45deg)
+    }
   }
 }
