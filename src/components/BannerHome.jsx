@@ -83,12 +83,14 @@ class BannerHome extends Component {
             <h2 className="intro-subtitle">Of excelence, beauty, wellness &<br />great memories.</h2> */}
           {/* </div> */}
         </MobileView>
+        <BrowserView>
         <div className="text-con" >
           <h1 className="intro-title">LA MUJER MAS BELLA</h1>
         </div>
         <div onClick={this.mute} className="audio-icon">
             <img src={audioIcon} alt=""/>
         </div>
+        </BrowserView>
       </div>
     )
   }

@@ -227,3 +227,8 @@ body {
     }
   }
 }
+.about__img{
+  @include to(l) {
+    margin-top: 8em !important;
+  }
+}

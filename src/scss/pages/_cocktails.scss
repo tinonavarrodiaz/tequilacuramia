@@ -231,6 +231,9 @@
       position: absolute;
       left: 50%!important;
       bottom: 3.5em !important;
+      @include to(l){
+        bottom: 2em !important;
+      }
     }
   }
   .map{
