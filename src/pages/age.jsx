@@ -29,7 +29,7 @@ class Age extends Component {
       document.body.style.overflowY='hidden'
     }else{
       document.querySelector('.bodyContent').style.opacity="1"
-      if (document.querySelector('#video')) document.querySelector('#video').play()
+      // if (document.querySelector('#video')) document.querySelector('#video').play()
       let bv = document.querySelector('.button-video')
       if (bv){bv.click()}
     }
@@ -39,12 +39,12 @@ class Age extends Component {
     if(e.target.dataset.action==="yes"){
       this.setState({showAcces: "hidden"})
       document.body.style.overflowY='auto'
-      document.querySelector('.bodyContent').style.opacity="1"
-      if (document.querySelector('#video')) document.querySelector('#video').play()
-      if (this.state.check) localStorage.setItem('access','true')
-      window.scrollTo(0,0)
       let bv = document.querySelector('.button-video')
       if (bv){bv.click()}
+      document.querySelector('.bodyContent').style.opacity="1"
+      // if (document.querySelector('#video')) document.querySelector('#video').play()
+      if (this.state.check) localStorage.setItem('access','true')
+      window.scrollTo(0,0)
     }
   }
   
