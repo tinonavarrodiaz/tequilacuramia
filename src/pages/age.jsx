@@ -30,6 +30,8 @@ class Age extends Component {
     }else{
       document.querySelector('.bodyContent').style.opacity="1"
       if (document.querySelector('#video')) document.querySelector('#video').play()
+      let bv = document.querySelector('.button-video')
+      if (bv){bv.click()}
     }
   }
   click(e){
@@ -41,6 +43,8 @@ class Age extends Component {
       if (document.querySelector('#video')) document.querySelector('#video').play()
       if (this.state.check) localStorage.setItem('access','true')
       window.scrollTo(0,0)
+      let bv = document.querySelector('.button-video')
+      if (bv){bv.click()}
     }
   }
   

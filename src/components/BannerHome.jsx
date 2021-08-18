@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {BrowserView, MobileView} from "react-device-detect";
 import Loader from "react-js-loader";
 // import introText from "../assets/img/text-intro.png";
-import intro from "../assets/img/intro.jpg"
+import intro from "../assets/img/intro1.jpg"
 import './banner.scss'
 
 class BannerHome extends Component {
@@ -28,7 +28,7 @@ class BannerHome extends Component {
         `
         document.body.appendChild(Modal)
         document.body.style.overflow = 'hidden'
-        document.getElementById('videoM').play()
+        // document.getElementById('videoM').play()
         Modal.addEventListener('click', e=>{
           if(e.target.nodeName!=="VIDEO"){
             Modal.remove()
@@ -57,7 +57,7 @@ class BannerHome extends Component {
             <source srcSet={intro} media="(min-width: 1024px)" />
             {/*<source srcset={imagesHome.img1} media="(min-width: 1024px)"/>*/}
             <img  src={intro} alt="" />
-            <button onClick={this.showVideo} className="button-video">Video</button>
+            <button onClick={this.showVideo} className="button-video hidden">Video</button>
           </picture>
 
           {/* <div className="text-con" >
