@@ -1,11 +1,14 @@
 .Slider{
   &-container{
-    background: #FFF5F1;
-    padding: 1.5em 0 1em;
+    // background: #FFF5F1;
+    padding: 0;
   }
   position: relative;
   width: 100%;
   margin-top: -100px;
+  @media only screen and (max-width: 1024px) {
+    margin-top: 0 !important;
+  }
   &__item{
     position: absolute;
     left: 0;

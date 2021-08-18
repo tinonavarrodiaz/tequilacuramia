@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Header from "../components/Header";
 import AOSInit from "../helpers/helpers";
-import imagesHome from '../assets/images_home';
+// import imagesHome from '../assets/images_home';
 import ImagesCocktails  from "../assets/images-cocktails"
 
 

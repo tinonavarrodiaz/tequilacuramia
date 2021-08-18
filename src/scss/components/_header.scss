@@ -23,9 +23,9 @@
     margin: 0 auto;
   }
   @include to(l){
-    right: unset;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 6vw;
+    // left: 50%;
+    // transform: translateX(-50%);
   }
 
   li {

@@ -36,6 +36,7 @@
     }
     @include to(l){
       width: 100%;
+      bottom: 10.5rem;
     }
   }
   h1, h2{
@@ -240,4 +241,14 @@
 }
 .main-logo{
   width: 150px;
+}
+.button-video{
+  background-color: var(--color-main) !important;
+  color: #fff;
+  position: absolute;
+  bottom: 7rem;
+  left: 50%;
+  height:2em;
+  width: auto;
+  transform: translateX(-50%);
 }

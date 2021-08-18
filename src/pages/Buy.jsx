@@ -18,6 +18,10 @@ class Buy extends Component {
     // const form = e.target
     
   }
+  scrollT(){
+    console.log('load')
+    window.scrollTo(0,0)
+  }
   render() {
     return(
       // <Scrollbar
@@ -29,7 +33,7 @@ class Buy extends Component {
       //     }
       //   }}
       // >
-        <div className="over" style={{overflow: "hidden" }}>
+        <div className="over" onLoad={this.scrollT} style={{overflow: "hidden" }}>
           <Header />
           <section className="section contact Buy">
             <div className="contact-grid">
