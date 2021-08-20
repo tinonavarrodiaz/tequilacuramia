@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {BrowserView, MobileView} from "react-device-detect";
-import henm from "../assets/img/henm.svg"
+import henm from "../assets/img/henm-light.svg"
 import logoAccss from "../assets/img/logo-access.svg"
 import logoAlt from "../assets/img/logo-alt.svg"
 import no from "../assets/img/no.png"
@@ -71,7 +71,7 @@ class Age extends Component {
           <button onClick={this.click} data-action="no"><img src={no} data-action="no" alt="" /></button>
         </div>
         <Checkbox onClick={this.check} checked={this.state.check}> Remember me on this device</Checkbox>
-        <img src={logoAlt} className="logoAlt" alt=""/>
+        {/* <img src={logoAlt} className="logoAlt" alt=""/> */}
       </div>
     )
   }

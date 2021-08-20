@@ -15,6 +15,7 @@ import Buy from "../pages/Buy"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Contact from "../pages/Contact";
+import Curamia from "../pages/curamia";
 import Under from "../helpers/under";
 
 
@@ -48,7 +49,7 @@ function Routes() {
           <Under />
         </Route>
         <Route exact path="/curamia" >
-          <Under />
+          <Under />                                               
         </Route>
 
         <Route path="*">
