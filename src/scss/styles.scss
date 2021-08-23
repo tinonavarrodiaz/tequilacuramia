@@ -318,3 +318,8 @@ body {
     }
   }
 }
+.article-text.home__text{
+  @include to(l) {
+    margin-top: 70px !important;
+  }
+}
