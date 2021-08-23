@@ -22,59 +22,56 @@ $item: ed-item; // Clase para los items (core flexbox)
 $max-grid-columns: 12; // Máximo número de columnas (core css grid)
 $fractions: 3 6; // Fracciones para crear columnas (core flexbox)
 
-@import "~aos/dist/aos.css";
+@import '~aos/dist/aos.css';
 //EDGrid
-@import "~ed-grid/ed-grid";
-
-
+@import '~ed-grid/ed-grid';
 
 // Config
-@import "config/functions";
-@import "config/variables";
-@import "config/mixins";
+@import 'config/functions';
+@import 'config/variables';
+@import 'config/mixins';
 
 // Hamburgers Menu
 // @import "~hamburgers/dist/hamburgers.min.css";
 
 // Theme (colors and fonts)
-@import "theme/typography";
+@import 'theme/typography';
 // Base and elements (generic)
-@import "base/base";
+@import 'base/base';
 
 // LAYOUT
 // Escribe solo los estilos de layout (division en regiones del viewport)
-@import "layout/layout";
+@import 'layout/layout';
 
 // MODULOS (SMACSS) O COMPONENTES (ITCSS)
 // Son los elementos de UI de tu interfaz, como botones, tablas, menus, etc.
 // Crea los archivos adicionales que necesites (uno por componente)
-@import "components/buttons";
-@import "components/menus";
-@import "components/loading";
-@import "components/header";
-  @import "components/footer1";
-  @import "components/access";
+@import 'components/buttons';
+@import 'components/menus';
+@import 'components/loading';
+@import 'components/header';
+@import 'components/footer1';
+@import 'components/access';
 
 //@include from(l){
 //
 //}
-@import "pages/home1";
-@import "pages/about";
-@import "pages/process";
-@import "pages/cocktails";
-@import "pages/contact";
-@import "pages/tequilas";
-
+@import 'pages/home1';
+@import 'pages/about';
+@import 'pages/process';
+@import 'pages/cocktails';
+@import 'pages/contact';
+@import 'pages/tequilas';
 
 // Utilities (hacks)
 // Todos los hacks que hayas necesitado para solucionar conflictos
 // o resolver situaciones extremas. Se espera poder mejorarlos luego.
-@import "hacks/hacks";
+@import 'hacks/hacks';
 
 body {
 }
 
-.container{
+.container {
   //width: calc(100vw - 13.55vw);
   //margin-left: auto;
   //margin-right: auto;
@@ -82,7 +79,7 @@ body {
   //justify-content: flex-end;
 }
 
-#root{
+#root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -106,12 +103,12 @@ body {
 // }
 .video-container {
   background-color: #111;
-  height:100vh;
+  height: 100vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  video{
+  video {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -119,52 +116,52 @@ body {
     left: 0;
     object-fit: cover;
   }
-  .loading{
+  .loading {
     width: 2em;
     height: 2em;
   }
 }
 
-.parallax{
+.parallax {
   // transform: translateY(calc((var(--scroll) * var(--factor)) * 1px));
   // transition: transform .2s;
 }
-.logo-c{
+.logo-c {
   width: 60%;
 }
-@include to(l){
-  .menu a{
-    --header-color: #8C8C8C !important;
-    color: #8C8C8C !important;
+@include to(l) {
+  .menu a {
+    --header-color: #8c8c8c !important;
+    color: #8c8c8c !important;
     font-size: 1.5rem;
     text-transform: uppercase;
   }
-  .main-nav.menu__close{
+  .main-nav.menu__close {
     top: 1em !important;
     right: 1em !important;
   }
-  .footer-Right{
+  .footer-Right {
     transform: translateX(-.5em);
   }
-  .footer-Right > a{
+  .footer-Right > a {
     display: none;
   }
 }
 
-.modal-video{
+.modal-video {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
   height: 100vh !important;
   width: 100%;
-  background: rgba(#000, .75) !important;
-  padding: 0  1em !important;
+  background: rgba(#000, 0.75) !important;
+  padding: 0 1em !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   z-index: var(--z-modal);
-  video{
+  video {
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -173,13 +170,14 @@ body {
 .modal-close-button {
   $size: 4em;
   position: absolute;
-  height:$size;
-  width:$size;
+  height: $size;
+  width: $size;
   top: 2em;
   right: 2em;
   // background-color:rebeccapurple;
-  &::after, &::before{
-    content: "";
+  &::after,
+  &::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 50%;
@@ -188,30 +186,30 @@ body {
     background-color: #fff;
     transform: translateX(-50%) rotate(45deg);
   }
-  &::after{
+  &::after {
     transform: translateX(-50%) rotate(-45deg);
-    
   }
 }
-.audio-icon{
+.audio-icon {
   position: absolute;
   width: 2em;
   height: 2em;
   bottom: 2em;
   left: 2em;
   z-index: 1000;
-  opacity: .75;
+  opacity: 0.75;
   // background-color: red;
   display: flex;
   align-items: center;
   cursor: pointer;
-  img{
+  img {
     width: 100%;
     height: auto;
   }
-  &.off{
-    &::before, &::after{
-      content: "";
+  &.off {
+    &::before,
+    &::after {
+      content: '';
       display: block;
       height: 100%;
       width: 2px;
@@ -220,28 +218,28 @@ body {
       top: 0;
       left: 50%;
       transform-origin: center;
-      transform: translateX(-50%) rotate(-45deg)
+      transform: translateX(-50%) rotate(-45deg);
     }
     &::after {
-      transform: translateX(-50%) rotate(45deg)
+      transform: translateX(-50%) rotate(45deg);
     }
   }
 }
-.about__img{
+.about__img {
   @include to(l) {
     margin-top: 8em !important;
   }
 }
-.Cocktails{
+.Cocktails {
   .contact-grid {
     display: block;
   }
-  .sidebar{
+  .sidebar {
     display: none;
   }
-} 
+}
 
-.slogan__text{
+.slogan__text {
   @include to(l) {
     margin-bottom: 70px !important;
     font-size: 17px;

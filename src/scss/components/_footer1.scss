@@ -165,7 +165,13 @@
   }
 }
 .footer-Right {
-  @include to(l) {
-    transform: translateX(3px) !important;
+  > a{
+    @include to(l) {
+      display: none;
+    }
+
+  }
+  @include to(l){
+    transform: translateX(-5px) !important;
   }
 }
