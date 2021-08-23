@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 // import Slogan from "../components/Slogan";
 import AOSInit from "../helpers/helpers";
 import agave from "../assets/img/agave.jpg"
-import henm from "../assets/img/henm-dark.svg"
+import henm from "../assets/img/hechoenmexicoa.svg"
 import clm from "../assets/img/cml.png"
 import separator from "../assets/img/separador.png"
 import logo from "../assets/img/logo-dark.svg"

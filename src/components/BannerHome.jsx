@@ -79,7 +79,7 @@ class BannerHome extends Component {
             {/* <p style={{color:'#fff'}}>loading</p> */}
             <Loader type="bubble-ping" bgColor={"#FFFFFF"} size={75} />
             {/* <Loader size="md" content="Medium" /> */}
-            <video loop id="video">
+            <video  loop id="video">
               <source src={video} type="video/mp4"/>
             </video>
             
