@@ -36,16 +36,16 @@
   }
 }
 .henm{
-  width: 50px;
+  width: 80px;
   @include from(m){
-    width: 75px;
+    width: 80px;
   }
   @include from(l){
     width: 100px;
   }
 }
 .logoAccss{
-  width: 80%;
+  width: 150%;
   max-width: 600px;
 }
 .leyenda{
