@@ -27,6 +27,23 @@ class BannerHome extends Component {
       video.muted= false
     }
   }
+  playBtn(e){
+    let video = e.target.parentElement.querySelector('video')
+    video.play()
+  }
+
+  clickButton(e){
+    console.log(e)
+    let playButton = document.getElementById('playButton')
+    console.log(playButton)
+    playButton.click()
+
+  }
+
+  videoLoaded(e){
+    console.log('video cargado')
+  }
+  
   showVideo(e){
     // let buttonVideo = document.querySelector('.button-video')
     // if (buttonVideo){
@@ -69,24 +86,15 @@ class BannerHome extends Component {
           </div>
         </BrowserView>
         <MobileView>
-          <picture data-aos="fade-in" className="picture-banner">
-            <source srcSet={intro} media="(min-width: 1024px)" />
-            {/*<source srcset={imagesHome.img1} media="(min-width: 1024px)"/>*/}
-            <img  src={intro} alt="" />
-            <button onClick={this.showVideo} className="button-video hidden">Video</button>
-          </picture>
-
-          {/* <div className="text-con" >
-            <img  data-aos="fade-left" className="text-intro" src={introText} alt="" />
-          <img src={introText} alt=""> */}
-            {/* <h1 className="intro-title">A DELICATE<br />BALANCE</h1>
-            <h2 className="intro-subtitle">Of excelence, beauty, wellness &<br />great memories.</h2> */}
-          {/* </div> */}
+          <div className="video-mobile">
+            <video loop autoPlay muted="muted" id="videoMobile" src="https://tinonavarrodiaz.github.io/video-curamia/curamia-mobile.mp4"></video>
+            {/* <button id="playButton" >play</button> */}
+          </div>
         </MobileView>
-        <BrowserView>
         <div className="text-con" >
           <h1 className="intro-title">LA MUJER MAS BELLA</h1>
         </div>
+        <BrowserView>
         <div onClick={this.mute} className="audio-icon">
             <img src={audioIcon} alt=""/>
         </div>
@@ -96,7 +104,21 @@ class BannerHome extends Component {
   }
 
   componentDidMount(){
-    // this.showVideo()
+    // const click = (video)=>{
+    //   console.log(video)
+    //   video.play()
+    // }
+    // window.addEventListener('DOMContentLoaded', e=>{
+    //   // alert('cargado')
+    //   let playButton = document.getElementById('playButton')
+    //   let video = document.getElementById('videoMobile')
+    //   if(playButton&&video){
+    //     playButton.addEventListener('click', e=>{
+    //       click(video)
+    //     })
+    //   }
+    //   playButton.click()
+    // })
   }
 }
 
