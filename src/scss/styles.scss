@@ -245,3 +245,31 @@ body {
     font-size: 17px;
   }
 }
+.Cocktails-mobile{
+  padding-top: 1.5em;
+}
+.cocktail-mobile{
+  margin-bottom: 2em;
+  &:last-child, &:last-of-type{
+    margin-bottom: 0;
+    padding-bottom: 2em;
+  }
+  .img{
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+  }
+  .cocktail-name-mobile{
+    margin-top: .75em;
+    color: var(--color-main);
+    text-align: center;
+  }
+}
+.receta-mobile{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  padding: 0 1em 0 0;
+  text-align: center;
+}
