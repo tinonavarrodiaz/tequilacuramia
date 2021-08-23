@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tequilacuramia/static/css/main.064388c9.chunk.css",
-    "main.js": "/tequilacuramia/static/js/main.08085243.chunk.js",
-    "main.js.map": "/tequilacuramia/static/js/main.08085243.chunk.js.map",
+    "main.js": "/tequilacuramia/static/js/main.b559caa3.chunk.js",
+    "main.js.map": "/tequilacuramia/static/js/main.b559caa3.chunk.js.map",
     "runtime-main.js": "/tequilacuramia/static/js/runtime-main.653fef57.js",
     "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.653fef57.js.map",
     "static/css/2.2597ee6e.chunk.css": "/tequilacuramia/static/css/2.2597ee6e.chunk.css",
@@ -47,8 +47,8 @@
     "static/media/coc7.0c8922e4.jpg": "/tequilacuramia/static/media/coc7.0c8922e4.jpg",
     "static/media/coc8.d1451931.jpg": "/tequilacuramia/static/media/coc8.d1451931.jpg",
     "static/media/description.20486643.png": "/tequilacuramia/static/media/description.20486643.png",
-    "static/media/hechoenmexico.3016fe1b.svg": "/tequilacuramia/static/media/hechoenmexico.3016fe1b.svg",
-    "static/media/henm-dark.e10f5736.svg": "/tequilacuramia/static/media/henm-dark.e10f5736.svg",
+    "static/media/hechoenmexico.48e1516e.svg": "/tequilacuramia/static/media/hechoenmexico.48e1516e.svg",
+    "static/media/hechoenmexicoa.48e1516e.svg": "/tequilacuramia/static/media/hechoenmexicoa.48e1516e.svg",
     "static/media/henm-light.337fa89e.svg": "/tequilacuramia/static/media/henm-light.337fa89e.svg",
     "static/media/home1-m.5efb2a9b.jpg": "/tequilacuramia/static/media/home1-m.5efb2a9b.jpg",
     "static/media/home1.8518f8bd.jpg": "/tequilacuramia/static/media/home1.8518f8bd.jpg",
@@ -80,6 +80,6 @@
     "static/css/2.2597ee6e.chunk.css",
     "static/js/2.50a9c728.chunk.js",
     "static/css/main.064388c9.chunk.css",
-    "static/js/main.08085243.chunk.js"
+    "static/js/main.b559caa3.chunk.js"
   ]
 }
