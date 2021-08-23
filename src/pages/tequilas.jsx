@@ -13,8 +13,8 @@ import clm from "../assets/img/cml.png"
 import separator from "../assets/img/separador.png"
 import logo from "../assets/img/logo-dark.svg"
 import botella from "../assets/img/botella.png"
-import description from "../assets/img/description.svg"
-import notes from "../assets/img/notes.svg"
+import description from "../assets/img/description.png"
+import notes from "../assets/img/notes.png"
 import buy from "../assets/img/buynow.png"
 import mark from "../assets/img/mark.svg"
 // import Age from "./age"
@@ -63,16 +63,16 @@ class Tequilas extends Component  {
             </article>
             <article className="Tequilas__description">
               <div className="Tequilas__bottle-container">
-                <img className="Tequilas__botella"  src={botella} alt=""/>
+                <img className="Tequilas__botella" data-aos="fade-right" src={botella} alt=""/>
               </div>
               <div className="Tequilas__notes">
               <div className="img1">
-                <img className="description" data-delay="100" src={description} alt=""/>
+                <img className="description" data-aos="fade-left" data-aos-delay="100" src={description} alt=""/>
               </div>
               <div className="img1">
-                <img className="notes" src={notes} data-delay="200" alt=""/>
+                <img className="notes" data-aos="fade-left" data-aos-delay="200" src={notes} data-delay="200" alt=""/>
               </div>
-              <div class="img-buy">                <img className="buynow" data-delay="300" src={buy} alt=""/>
+              <div class="img-buy"><img data-aos="zoom-in" data-aos-delay="300" className="buynow" src={buy} alt=""/>
 
               </div>
                 <img className="Tequilas__mark" src={mark} alt=""/>

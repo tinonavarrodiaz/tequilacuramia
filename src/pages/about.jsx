@@ -32,7 +32,7 @@ class About extends Component {
         <Header />
         <section className="section about">
           
-          <h2 className="section__title" data-aos="fade-left" >La Leyenda</h2>
+          <h2 className="section__title" data-aos="fade-left" >Curamia</h2>
           
           
           <article className="section__banner">
@@ -41,17 +41,18 @@ class About extends Component {
           
           <article className="about__container">
             <div className="about__text"  >
+              <p className="text" data-aos="fade-right" >Many generations ago, the most beautiful lady in Mexico was born. Though the town could not stop talking about her beauty, it was said that her physical fairness paled in comparison to her charitable, unselfish heart. She changed the lives of many, but as the years went by—and she grew older—truth blossomed into mystery. The passage of time enshrouded her life in secrecy; leaving some to wonder what legacy she left behind.</p>
               
-              <p className="highlighted" data-aos="fade-left" >The meaning of Curamia is “My Cure”. A spiritual relief materialized in a Tequila that is meant to be enjoyed and savored. </p>
+              {/* <p className="highlighted" data-aos="fade-left" >The meaning of Curamia is “My Cure”. A spiritual relief materialized in a Tequila that is meant to be enjoyed and savored. </p>
               
               
               <p className="text" data-aos="fade-right" >
                 Curamia a lifestyle brand that was born in the middle of a global pandemic. One of the main things we thought about was how everyone around the world was concerned and mindful about their health and wellness. To us, Curamia is part of that health and wellness. Tequila has always been known to be the one spirit that those who are health minded drink and there is scientific evidence that proves that such spirit also has medicinal purposes; it is an upper and low in sugars and calories.<br /><br />Curamia is not another tequila. It is the best, most elegant and delicate top shelf tequila that is accessible to all.
-              </p>
+              </p> */}
               
             </div>
             <div className="about__img">              
-              <img src={botella} className="section__banner-image" alt="banner" data-aos="fade-left" />
+              <img src={botella} className="section__banner-image" alt="banner" data-aos-delay="300" data-aos-duration="1000" data-aos="fade-left" />
               
             </div>
           </article>

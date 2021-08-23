@@ -2,9 +2,9 @@ import React, { Component } from "react";
 // import imagesHome from "../assets/images_home";
 import {NavLink} from "react-router-dom";
 // import valvula from "../assets/img/valvula1.jpg";
-import coctel from "../assets/img/coctel.jpg";
-import agave2 from "../assets/img/agave2.jpg";
-import mapa from "../assets/img/mapa.jpg";
+import coctel from "../assets/img/cantarito.jpg";
+import agave2 from "../assets/img/agave3.jpg";
+import mapa from "../assets/img/mapa1.jpg";
 
 
 class PageLinks extends Component{
