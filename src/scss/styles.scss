@@ -323,3 +323,43 @@ body {
     margin-top: 70px !important;
   }
 }
+#instagram-posts{
+  width: 90%;
+  max-width: 800px !important;
+  margin: 0 auto;
+  height: 40vh;
+  @include to(l) {
+    padding-top: 7.5vh;
+  }
+  @include from(1400px){
+    height: 70vh;
+  }
+  iframe{
+    border: none;
+  }
+}
+.link-page--item p{
+  text-align: right !important;
+}
+.cc{
+  @include to(l) {
+    align-items: flex-start !important;
+  }
+}
+.cf{
+  @include to(l) {
+    padding-top: 0 !important;
+  }
+}
+.img-curamia{
+  width: 100px !important;
+  margin: 0 auto 70px;
+}
+.Tequilas__notes .img1{
+  @include from(l){
+    img{
+      height: 200px !important;
+      width: auto !important;
+    }
+  }
+}

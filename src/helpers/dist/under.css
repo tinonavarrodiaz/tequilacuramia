@@ -1,0 +1,9 @@
+.under {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.under h1 {
+  text-align: center;
+}

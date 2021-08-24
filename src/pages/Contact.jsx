@@ -33,8 +33,8 @@ class Contact extends Component {
               <div className="sidebar">
                 <h2 className="section__title" data-aos="fade-right">Contact US</h2>
               </div>
-              <div className="contact__container">
-                <form action="https://nh-digital.mx/curamia/send.php" method="post" className="contact__form" onSubmit={this.sendForm} data-aos="fade-left">
+              <div className="contact__container cc">
+                <form action="https://nh-digital.mx/curamia/send.php" method="post" className="contact__form cf" onSubmit={this.sendForm} data-aos="fade-left">
                   <p className="formText">Leave your comment.</p>
                   <div className="input-group textarea">
                     <textarea name="message" id="message"></textarea>

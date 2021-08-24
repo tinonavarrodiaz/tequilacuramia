@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import AOSInit from "../helpers/helpers";
 import botella from "../assets/img/botella.png"
 import ArticleBottom from "../components/bottomContent";
+import henm from "../assets/img/hechoenmexicoa.svg"
 class About extends Component {
   constructor(props){
     super(props)
@@ -41,7 +42,8 @@ class About extends Component {
           
           <article className="about__container">
             <div className="about__text"  >
-              <p className="text" data-aos="fade-right" >Many generations ago, the most beautiful lady in Mexico was born. Though the town could not stop talking about her beauty, it was said that her physical fairness paled in comparison to her charitable, unselfish heart. She changed the lives of many, but as the years went by—and she grew older—truth blossomed into mystery. The passage of time enshrouded her life in secrecy; leaving some to wonder what legacy she left behind.</p>
+              <img src={henm} alt="" data-aos="zoom-in"  className="img-curamia"/>
+              <p className="text" data-aos="fade-right" data-aos-delay="50" >Many generations ago, the most beautiful lady in Mexico was born. Though the town could not stop talking about her beauty, it was said that her physical fairness paled in comparison to her charitable, unselfish heart. She changed the lives of many, but as the years went by—and she grew older—truth blossomed into mystery. The passage of time enshrouded her life in secrecy; leaving some to wonder what legacy she left behind.</p>
               
               {/* <p className="highlighted" data-aos="fade-left" >The meaning of Curamia is “My Cure”. A spiritual relief materialized in a Tequila that is meant to be enjoyed and savored. </p>
               
@@ -52,7 +54,7 @@ class About extends Component {
               
             </div>
             <div className="about__img">              
-              <img src={botella} className="section__banner-image" alt="banner" data-aos-delay="300" data-aos-duration="1000" data-aos="fade-left" />
+              <img src={botella} className="section__banner-image" alt="banner" data-aos-delay="300" data-aos-duration="1000" data-aos="zoom-in" />
               
             </div>
           </article>

@@ -13,7 +13,7 @@ const Menu = () => {
     <ul className="menu">
       <div className="menu__close" onClick={handleClick}></div>
       <li>
-        <NavLink exact to="/about" activeClassName="selected" className="link" >Curamia</NavLink>
+        <NavLink exact to="/curamia" activeClassName="selected" className="link" >Curamia</NavLink>
       </li>
       <li>
         <NavLink exact to="/process" activeClassName="selected" className="link" >Our Process</NavLink>
@@ -25,7 +25,7 @@ const Menu = () => {
         <NavLink exact to="/cocktails" activeClassName="selected" className="link" >Cocktails</NavLink>
       </li>
       <li>
-        <NavLink exact to="/curamia" activeClassName="selected" className="link" >#lamujermasbella</NavLink>
+        <NavLink exact to="/lamujermasbella" activeClassName="selected" className="link" >#lamujermasbella</NavLink>
       </li>
       <li>
         <NavLink exact to="/press" activeClassName="selected" className="link" >Press</NavLink>

@@ -10,6 +10,7 @@ import About from "../pages/about";
 import Process from "../pages/process"
 import Cocktails from "../pages/cocktails"
 import Tequilas from "../pages/tequilas"
+import Mujer from "../pages/LaMujerMasBella"
 import Buy from "../pages/Buy"
 
 import Header from "../components/Header";
@@ -27,7 +28,7 @@ function Routes() {
         <Route exact path="/" >
           <Home />
         </Route>
-        <Route exact path="/about" >
+        <Route exact path="/curamia" >
           <About />
         </Route>
         <Route exact path="/process" >
@@ -48,8 +49,8 @@ function Routes() {
         <Route exact path="/press" >
           <Under />
         </Route>
-        <Route exact path="/curamia" >
-          <Under />                                               
+        <Route exact path="/lamujermasbella" >
+          <Mujer />
         </Route>
 
         <Route path="*">
