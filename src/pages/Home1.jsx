@@ -35,13 +35,19 @@ class Home extends Component  {
   render(){
     return (
       <div>
-        <HeaderFixed />
-        <BannerHome/>
-        <ArticleText/>
-        <Abuelabanner/>
-        <Slogan/>
-        <PageLinks/>
-        <Footer/>
+        <Age/>
+        <div className="bodyContent">
+          <HeaderFixed />
+          <div className="home">
+            <BannerHome/>
+            <ArticleText/>
+            <Abuelabanner/>
+            <Slogan/>
+            <PageLinks/>
+            <ArticleBottom pad="40px"/>
+          </div>
+          <Footer/>
+        </div>
       </div>
     )
   }
