@@ -421,7 +421,7 @@ class Cocktails extends Component {
   
   componentDidMount() {
     console.log('componentDidMount')
-    document.body.style.setProperty('--header-color', '#FF3500')
+    document.body.style.setProperty('--header-color', 'rgb(252,75,2)')
     this.slide()
     AOSInit()
     window.addEventListener('DOMContentLoaded', e => {

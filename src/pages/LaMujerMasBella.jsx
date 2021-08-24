@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Iframe from "react-iframe"
 import AOSInit from "../helpers/helpers";
 import Header from "../components/Header"
 // import Obj from "../helpers/instagramObj";
@@ -35,7 +34,7 @@ class Mujer extends Component {
   }
   componentDidMount() {
     AOSInit()
-    document.body.style.setProperty('--header-color', '#FF3500')
+    document.body.style.setProperty('--header-color', 'rgb(252,75,2)')
   }         
 }
 

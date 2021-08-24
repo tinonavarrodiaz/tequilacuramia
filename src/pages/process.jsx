@@ -68,14 +68,14 @@ class Process extends Component {
             <p className="brand__slogan" data-aos="fade-left" data-aos-offset="100">A MEXICAN<br/>LEGACY</p>
           </article>
         </section>
-        <ArticleBottom alt="true" back="#ed5e2b" pad="50px"/>
+        <ArticleBottom alt="true" back="#FF4D00" pad="50px"/>
         <Footer />
       </div>
     // </Scrollbar>
   )
   }
   componentDidMount() {
-    document.body.style.setProperty('--header-color', '#FF3500')
+    document.body.style.setProperty('--header-color', 'rgb(252,75,2)')
     AOSInit()
   }
 }

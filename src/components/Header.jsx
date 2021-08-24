@@ -2,7 +2,7 @@
 import Hamburger from "./Hamburger";
 import Menu from "./Menu";
 // import imgs from "../assets/images_header"
-import logo from "../assets/img/logo1_1.svg"
+import logo from "../assets/img/logo-bueno.svg"
 import {
   NavLink
 } from "react-router-dom";

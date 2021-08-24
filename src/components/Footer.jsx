@@ -1,5 +1,5 @@
 
-import Logo from '../assets/img/logo.png';
+import Logo from '../assets/img/logo-bueno.svg';
 import { NavLink } from "react-router-dom";
 import Social from './social'
 const Footer = () => {

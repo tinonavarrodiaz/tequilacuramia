@@ -84,7 +84,7 @@ class Buy extends Component {
     )
   }
   componentDidMount() {
-    document.body.style.setProperty('--header-color', '#FF3500')
+    document.body.style.setProperty('--header-color', 'rgb(252,75,2)')
     AOSInit()
     window.addEventListener('DOMContentLoaded', e=>{
 

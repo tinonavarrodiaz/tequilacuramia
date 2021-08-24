@@ -2,8 +2,32 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   h1{
     text-align: center;
+  }
+  .press{
+    p, a{
+      text-align: center;
+    }
+    p{
+      margin-bottom: 1em;
+    }
+    a{
+      color: var(--color-main)
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // margin-bottom: 50px;
+    font-size: 1.3em;
+    height: calc(100vh - var(--header-height));
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: var(--header-height);
+    @media screen and (min-width: 1024px) {
+      // margin-bottom: 30vh;
+      
+    }
   }
 }

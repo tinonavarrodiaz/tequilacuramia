@@ -90,6 +90,9 @@
     top: 0;
     left: 0;
     background-color: transparent;
+    a{
+      color: #fff !important;
+    }
   }
   .Logo{
     height: 30px;
@@ -101,10 +104,10 @@
     }
   }
   svg{
-    fill: var(--header-color);
+    fill: $color-fisrt;
   }
   li a{
-    color: var(--header-color) !important;
+    color: $color-fisrt !important;
   }
 }
 .scroll-content{

@@ -11,13 +11,14 @@ import Process from "../pages/process"
 import Cocktails from "../pages/cocktails"
 import Tequilas from "../pages/tequilas"
 import Mujer from "../pages/LaMujerMasBella"
+import Press from "../pages/Press"
 import Buy from "../pages/Buy"
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Contact from "../pages/Contact";
-import Curamia from "../pages/curamia";
-import Under from "../helpers/under";
+// import Curamia from "../pages/curamia";
+// import Under from "../helpers/under";
 
 
 function Routes() {
@@ -47,7 +48,7 @@ function Routes() {
           <Buy />
         </Route>
         <Route exact path="/press" >
-          <Under />
+          <Press />
         </Route>
         <Route exact path="/lamujermasbella" >
           <Mujer />

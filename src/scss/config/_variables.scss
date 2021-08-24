@@ -40,7 +40,7 @@ $z-modal: 1000;
 
 $images-path: "img";
 
-$color-fisrt: #ed5e2b;
+$color-fisrt:rgb(255, 77, 0);;
 $color-first-alt: #006dc6;
 $color-second: #2C2D2B;
 $color-second-alt: #00bff0;
@@ -71,8 +71,8 @@ $textColor: $color-text;
 $bodyBg: $color-body-bg;
 
 :root {
-  --color-main: #ed5e2b;
-  --color-fisrt: #ed5e2b;
+  --color-main: rgb(255,77,0);
+  --color-fisrt: rgb(255, 77, 0);
   --color-first-alt: #{$color-first-alt};
   --color-second: #{$color-second};
   --color-second-alt: #{$color-second-alt};
