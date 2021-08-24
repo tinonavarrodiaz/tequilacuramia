@@ -28,14 +28,14 @@ class Mujer extends Component {
             className="iframe-instagram"
             height="100%"
           /> */}
-          <iframe src="https://snapwidget.com/embed/958272" className="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style={{border:"none", height: "80vh",overflowX:"auto", width:"100%"}}></iframe>
+          <iframe src="https://snapwidget.com/embed/958272" className="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style={{border:"none", height: "100%",overflowX:"auto", width:"100%"}}></iframe>
         </section>
       </div>
     )
   }
   componentDidMount() {
     AOSInit()
-    
+    document.body.style.setProperty('--header-color', '#FF3500')
   }         
 }
 
