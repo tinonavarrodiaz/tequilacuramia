@@ -165,10 +165,10 @@
   }
   &-contact{
     @include from(l){
-      background: linear-gradient(90deg, #EEEAE6 33%, #fff 33%)
+      background: linear-gradient(90deg, #EEEAE6 30.25%, #fff 30.25%)
       
     }@include from(1400px){
-      background: linear-gradient(90deg, #EEEAE6 31%, #fff 31%)
+      background: linear-gradient(90deg, #EEEAE6 29%, #fff 29%)
       
     }
   }
