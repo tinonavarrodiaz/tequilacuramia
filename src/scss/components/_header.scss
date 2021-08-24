@@ -113,3 +113,9 @@
 .scroll-content{
   background: linear-gradient($body-bg 20%, #fff 20%);
 }
+
+@include from(l) {
+.fixed a.link{
+  color: #fff !important;
+}
+}
