@@ -327,9 +327,9 @@ body {
   width: 90%;
   max-width: 800px !important;
   margin: 0 auto;
-  height: auto;
+  height: 60vh;
   @include to(l) {
-    padding-top: 7.5vh;
+    padding-top: 5vh;
   }
   @include from(1400px){
     height: 70vh;
