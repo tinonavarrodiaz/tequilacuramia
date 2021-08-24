@@ -87,7 +87,7 @@ class BannerHome extends Component {
         </BrowserView>
         <MobileView>
           <div className="video-mobile">
-            <video loop autoPlay muted="muted" id="videoMobile" playsinline="true" disablePictureInPicture="true" src="https://tinonavarrodiaz.github.io/video-curamia/curamia-mobile.mp4"></video>
+            <video loop autoPlay muted="muted" id="videoMobile" playsinline="true" disablePictureInPicture="true" src="https://tinonavarrodiaz.github.io/video-curamia/curamia-mobile-final.mp4"></video>
             {/* <button id="playButton" >play</button> */}
           </div>
         </MobileView>
