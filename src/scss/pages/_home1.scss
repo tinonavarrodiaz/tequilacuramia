@@ -1,5 +1,5 @@
 .home{
-  background: linear-gradient(#fff 170vh, #EDEAE6 170vh);
+  background: linear-gradient(#fff 200vh, #EDEAE6 200vh);
   padding-bottom: 2em;
   height: auto !important;
   min-height: 100vh;
@@ -208,7 +208,8 @@
 }
 .slogan__text{
   @include to(l){
-    font-size: 1.2em !important;
+    // font-size: 20px !important;
+    margin-top: 50px;
   }
 }
 .slogan h2{

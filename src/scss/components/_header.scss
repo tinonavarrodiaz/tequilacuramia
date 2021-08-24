@@ -90,7 +90,7 @@
     top: 0;
     left: 0;
     background-color: transparent;
-    a{
+    a:not(.link){
       color: #fff !important;
     }
   }
@@ -107,7 +107,7 @@
     fill: $color-fisrt;
   }
   li a{
-    color: $color-fisrt !important;
+    color: $color-fisrt ;
   }
 }
 .scroll-content{

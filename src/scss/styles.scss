@@ -390,3 +390,17 @@ body {
   color: #fff;
   background-color: var(--color-main);
 }
+.main-header.fixed svg {
+  fill: #fff;
+}
+.article-text.home__text p{
+  @include to(l) {
+  font-size: 18px !important;
+  }
+}
+.link{
+  @include to(l) {
+    colo: red !important;
+  }
+
+}
