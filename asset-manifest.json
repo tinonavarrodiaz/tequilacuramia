@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tequilacuramia/static/css/main.48791b55.chunk.css",
-    "main.js": "/tequilacuramia/static/js/main.b4d5f5b8.chunk.js",
-    "main.js.map": "/tequilacuramia/static/js/main.b4d5f5b8.chunk.js.map",
+    "main.css": "/tequilacuramia/static/css/main.4de53349.chunk.css",
+    "main.js": "/tequilacuramia/static/js/main.fca4b002.chunk.js",
+    "main.js.map": "/tequilacuramia/static/js/main.fca4b002.chunk.js.map",
     "runtime-main.js": "/tequilacuramia/static/js/runtime-main.653fef57.js",
     "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.653fef57.js.map",
     "static/css/2.2597ee6e.chunk.css": "/tequilacuramia/static/css/2.2597ee6e.chunk.css",
-    "static/js/2.50a9c728.chunk.js": "/tequilacuramia/static/js/2.50a9c728.chunk.js",
-    "static/js/2.50a9c728.chunk.js.map": "/tequilacuramia/static/js/2.50a9c728.chunk.js.map",
+    "static/js/2.ce0c476c.chunk.js": "/tequilacuramia/static/js/2.ce0c476c.chunk.js",
+    "static/js/2.ce0c476c.chunk.js.map": "/tequilacuramia/static/js/2.ce0c476c.chunk.js.map",
     "static/js/3.c871eb60.chunk.js": "/tequilacuramia/static/js/3.c871eb60.chunk.js",
     "static/js/3.c871eb60.chunk.js.map": "/tequilacuramia/static/js/3.c871eb60.chunk.js.map",
     "index.html": "/tequilacuramia/index.html",
     "static/css/2.2597ee6e.chunk.css.map": "/tequilacuramia/static/css/2.2597ee6e.chunk.css.map",
-    "static/css/main.48791b55.chunk.css.map": "/tequilacuramia/static/css/main.48791b55.chunk.css.map",
-    "static/js/2.50a9c728.chunk.js.LICENSE.txt": "/tequilacuramia/static/js/2.50a9c728.chunk.js.LICENSE.txt",
+    "static/css/main.4de53349.chunk.css.map": "/tequilacuramia/static/css/main.4de53349.chunk.css.map",
+    "static/js/2.ce0c476c.chunk.js.LICENSE.txt": "/tequilacuramia/static/js/2.ce0c476c.chunk.js.LICENSE.txt",
     "static/media/01.19956bf9.jpg": "/tequilacuramia/static/media/01.19956bf9.jpg",
     "static/media/02.981dc43f.jpg": "/tequilacuramia/static/media/02.981dc43f.jpg",
     "static/media/03.3639c3d0.jpg": "/tequilacuramia/static/media/03.3639c3d0.jpg",
@@ -78,8 +78,8 @@
   "entrypoints": [
     "static/js/runtime-main.653fef57.js",
     "static/css/2.2597ee6e.chunk.css",
-    "static/js/2.50a9c728.chunk.js",
-    "static/css/main.48791b55.chunk.css",
-    "static/js/main.b4d5f5b8.chunk.js"
+    "static/js/2.ce0c476c.chunk.js",
+    "static/css/main.4de53349.chunk.css",
+    "static/js/main.fca4b002.chunk.js"
   ]
 }
