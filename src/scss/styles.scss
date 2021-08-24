@@ -50,7 +50,7 @@ $fractions: 3 6; // Fracciones para crear columnas (core flexbox)
 @import 'components/menus';
 @import 'components/loading';
 @import 'components/header';
-@import 'components/footer1';
+@import 'components/footer2';
 @import 'components/access';
 
 //@include from(l){
@@ -140,12 +140,12 @@ body {
     top: 1em !important;
     right: 1em !important;
   }
-  .footer-Right {
-    transform: translateX(-.5em);
-  }
-  .footer-Right > a {
-    display: none;
-  }
+  // .footer-Right {
+  //   transform: translateX(-.5em);
+  // }
+  // .footer-Right > a {
+  //   display: none;
+  // }
 }
 
 .modal-video {
@@ -276,7 +276,7 @@ body {
 .video-mobile{
  height: 100vh;
  background: #000;
- overflow: hidden;
+//  overflow: hidden;
  position: relative;
  video{
    height: 100vh;

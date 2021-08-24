@@ -1,0 +1,93 @@
+.footer{
+  padding: 50px 1em;
+  @include from(l) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 12vw;
+  }
+  .social{
+    $size: 1.5em;
+    @extend %list-style;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: $size*1.5;
+
+    @include from(l) {
+      height: 80px;
+      margin-bottom: 0;
+    }
+    li{
+      margin-right: $size;
+      
+      @include from(l) {
+        margin-right: $size * 2;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    a{
+      height:$size;
+      width: $size;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    svg{
+      width: auto;
+      height: 100%;
+      opacity: .75;
+    }
+  }
+}
+.footer-Right{
+  @include from(l) {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 0;
+    align-items: center;
+  }
+  >a{
+    display: none;
+    @include from(l){
+      display: block;
+      max-width: 200px;
+      margin-left: 1vw;
+    }
+  }
+}
+.footerMenu{
+  @extend %list-style;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 1.1;
+  color: #333;
+  padding-right: 0.2em;
+  // background-color: #505;
+  li{
+    padding: 0 .5em;
+    border-right: 1px solid #333;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:nth-child(odd){
+    }
+    &:last-child{
+      border-right: none;
+    }
+    @include from(l) {
+      width: 170px;
+      height: 60px;
+    }
+    @include from(1400px) {
+      width: 200px;
+      height: 60px;
+    }
+  }
+}

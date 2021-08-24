@@ -79,7 +79,7 @@ class BannerHome extends Component {
             {/* <p style={{color:'#fff'}}>loading</p> */}
             <Loader type="bubble-ping" bgColor={"#FFFFFF"} size={75} />
             {/* <Loader size="md" content="Medium" /> */}
-            <video  loop playsinline="true" disablePictureInPicture="true" id="video">
+            <video autoPlay playsInline disablePictureInPicture loop id="video">
               <source src={video} type="video/mp4"/>
             </video>
             
@@ -87,7 +87,7 @@ class BannerHome extends Component {
         </BrowserView>
         <MobileView>
           <div className="video-mobile">
-            <video loop autoPlay muted="muted" id="videoMobile" playsinline="true" disablePictureInPicture="true" src="https://tinonavarrodiaz.github.io/video-curamia/curamia-mobile-final.mp4"></video>
+            <video loop autoPlay muted="muted" id="videoMobile" playsInline disablePictureInPicture src="https://tinonavarrodiaz.github.io/video-curamia/curamia-mobile-final.mp4"></video>
             {/* <button id="playButton" >play</button> */}
           </div>
         </MobileView>

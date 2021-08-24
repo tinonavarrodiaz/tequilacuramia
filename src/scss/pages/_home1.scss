@@ -1,6 +1,8 @@
 .home{
   background: linear-gradient(#fff 170vh, #EDEAE6 170vh);
   padding-bottom: 2em;
+  height: auto !important;
+  min-height: 100vh;
   @include from(l){
     background: linear-gradient(#fff 200vh, #EDEAE6 200vh);
     padding-bottom: 0;

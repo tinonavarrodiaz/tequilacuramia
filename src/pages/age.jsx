@@ -30,8 +30,8 @@ class Age extends Component {
     }else{
       document.querySelector('.bodyContent').style.opacity="1"
       if (document.querySelector('#video')) document.querySelector('#video').play()
-      let bv = document.querySelector('.button-video')
-      if (bv && !document.querySelector('#modal-video')){bv.click()}
+      // let bv = document.querySelector('.button-video')
+      // if (bv && !document.querySelector('#modal-video')){bv.click()}
     }
   }
   click(e){

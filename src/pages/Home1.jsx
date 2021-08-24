@@ -10,6 +10,7 @@ import Slogan from "../components/Slogan";
 import AOSInit from "../helpers/helpers";
 import Age from "./age"
 
+
 class Home extends Component  {
   constructor(props){
     super(props)
@@ -33,22 +34,15 @@ class Home extends Component  {
   }
   render(){
     return (
-
-        <div>
-          <Age/>
-          <div className="bodyContent">
-            <HeaderFixed />
-            <div className="home">
-              <BannerHome/>
-              <ArticleText/>
-              <Abuelabanner/>
-              <Slogan/>
-              <PageLinks/>
-              <ArticleBottom pad="40px"/>
-            </div>
-            <Footer/>
-          </div>
-        </div>
+      <div>
+        <HeaderFixed />
+        <BannerHome/>
+        <ArticleText/>
+        <Abuelabanner/>
+        <Slogan/>
+        <PageLinks/>
+        <Footer/>
+      </div>
     )
   }
 
