@@ -237,7 +237,9 @@
     }
   }
   .map{
-    height: 30vh !important
+    height: 80vw !important;
+    min-height: 80vw !important;
+    max-height: 80vw !important;
   }
   .formBuy{
     padding-bottom: 6em;

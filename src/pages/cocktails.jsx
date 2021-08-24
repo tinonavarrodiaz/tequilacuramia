@@ -24,6 +24,7 @@ class Cocktails extends Component {
     let bull = [...document.querySelectorAll('.bullets li')]
     let cocktails = [...document.querySelectorAll('.cocktail')]
     let total = cocktails.length
+    let but = document.querySelector('.btn-next')
     cocktails.map(el=>el.addEventListener('click', function(){
       let index = cocktails.indexOf(el)
       bull.map(el=>el.classList.remove('active'))
@@ -36,6 +37,9 @@ class Cocktails extends Component {
         bull[index+1].classList.add('active')
       }
     }))
+    // but.addEventListener('click', e=>{
+    //   cocktails.click()
+    // })
   }
 
   bullActive = (e) =>{
@@ -72,6 +76,7 @@ class Cocktails extends Component {
 
                 </div>
                 <div className="buy" id="sliderNH">
+                
                   <ul className="bullets" id="bullets">
                     <li onClick={this.bullActive} data-index="0" className="active"></li>
                     <li onClick={this.bullActive} data-index="1"></li>
@@ -84,6 +89,7 @@ class Cocktails extends Component {
                     <li onClick={this.bullActive} data-index="8"></li>
                   </ul>
                   <div className="map cocktail active">
+                    <button className="btn-next">Next</button>
                     <div className="img" >
                       <img src={ImagesCocktails.img1} alt=""/>
                     </div>
@@ -102,6 +108,7 @@ class Cocktails extends Component {
                     </div>
                   </div>
                   <div className="map cocktail ">
+                    <button className="btn-next">Next</button>
                     <div className="img">
                       <img src={ImagesCocktails.img2} alt=""/>
                     </div>
@@ -118,6 +125,7 @@ class Cocktails extends Component {
                     </div>
                   </div>
                   <div className="map cocktail ">
+                  <button className="btn-next">Next</button>
                     <div className="img">
                       <img src={ImagesCocktails.img3} alt=""/>
                     </div>
@@ -134,6 +142,7 @@ class Cocktails extends Component {
                     </div>
                   </div>
                   <div className="map cocktail">
+                  <button className="btn-next">Next</button>
                     <div className="img">
                       <img src={ImagesCocktails.img4} alt=""/>
                     </div>
@@ -153,6 +162,7 @@ class Cocktails extends Component {
                     </div>
                   </div>
                   <div className="map cocktail ">
+                  <button className="btn-next">Next</button>
                     <div className="img">
                       <img src={ImagesCocktails.img5} alt=""/>
                     </div>
@@ -171,6 +181,7 @@ class Cocktails extends Component {
                   </div>
                   
                   <div className="map cocktail ">
+                  <button className="btn-next">Next</button>
                     <div className="img">
                       <img src={ImagesCocktails.img6} alt=""/>
                     </div>
@@ -188,6 +199,7 @@ class Cocktails extends Component {
                   
                   
                   <div className="map cocktail ">
+                  <button className="btn-next">Next</button>
                     <div className="img">
                       <img src={ImagesCocktails.img7} alt=""/>
                     </div>
@@ -203,6 +215,7 @@ class Cocktails extends Component {
                     </div>
                   </div>
                   <div className="map cocktail ">
+                  <button className="btn-next">Next</button>
                     <div className="img">
                       <img src={ImagesCocktails.img8} alt=""/>
                     </div>
@@ -220,6 +233,7 @@ class Cocktails extends Component {
                     </div>
                   </div>
                   <div className="map cocktail ">
+                  <button className="btn-next">Next</button>
                     <div className="img">
                       <img src={ImagesCocktails.img9} alt=""/>
                     </div>
