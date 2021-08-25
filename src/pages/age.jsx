@@ -22,8 +22,8 @@ class Age extends Component {
     this.check = this.check.bind(this);
   }
   load(e){
-    console.log(localStorage.getItem("access"))
-    if(!localStorage.getItem("access")){
+    console.log(sessionStorage.getItem("access"))
+    if(!sessionStorage.getItem("access")){
 
       this.setState({showAcces: "show"})
       document.body.style.overflowY='hidden'
@@ -43,7 +43,7 @@ class Age extends Component {
       if (bv && !document.querySelector('#modal-video')){bv.click()}
       document.querySelector('.bodyContent').style.opacity="1"
       if (document.querySelector('#video')) document.querySelector('#video').play()
-      if (this.state.check) localStorage.setItem('access','true')
+      if (this.state.check) sessionStorage.setItem('access','true')
       window.scrollTo(0,0)
     }
   }
@@ -76,7 +76,7 @@ class Age extends Component {
     )
   }
   componentDidMount() {
-    // let accessStorage = localStorage.getItem('access')
+    // let accessStorage = sessionStorage.getItem('access')
     // console.log(accessStorage)
     // this.setState({show:"ni-madres"})
     // // if (accessStorage===null){
