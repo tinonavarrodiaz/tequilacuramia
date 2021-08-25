@@ -14,7 +14,7 @@ class PageLinks extends Component{
         <figure className="link-page--item" data-aos="fade-right" data-aos-offset="300">
           <img src={coctel} alt="" />
           <figcaption>COCKTAILS</figcaption>
-          <p>Discover and enjoy the greatest<br />cocktails & drinks you can prepare with<br />our Tequila.<br />It’s
+          <p>Discover delicious and refreshing cocktails<br/>you can prepare with our Tequila.<br />It’s
             time to get creative!</p>
           <NavLink to="/cocktails">Learn more</NavLink>
         </figure>

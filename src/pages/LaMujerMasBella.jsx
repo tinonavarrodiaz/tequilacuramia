@@ -8,7 +8,6 @@ class Mujer extends Component {
     super(props)
     this.state = {
       post: [],
-      title: "Hola Mundo",
     }
     
   }
@@ -27,7 +26,7 @@ class Mujer extends Component {
             className="iframe-instagram"
             height="100%"
           /> */}
-          <iframe src="https://snapwidget.com/embed/958272" className="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style={{border:"none",overflowX:"auto", width:"100%"}}></iframe>
+          <iframe src="https://snapwidget.com/embed/958272" title="instagram" className="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style={{border:"none",overflowX:"auto", width:"100%"}}></iframe>
         </section>
       </div>
     )

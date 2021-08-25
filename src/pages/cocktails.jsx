@@ -24,7 +24,7 @@ class Cocktails extends Component {
     let bull = [...document.querySelectorAll('.bullets li')]
     let cocktails = [...document.querySelectorAll('.cocktail')]
     let total = cocktails.length
-    let but = document.querySelector('.btn-next')
+    // let but = document.querySelector('.btn-next')
     cocktails.map(el=>el.addEventListener('click', function(){
       let index = cocktails.indexOf(el)
       bull.map(el=>el.classList.remove('active'))
@@ -220,7 +220,7 @@ class Cocktails extends Component {
                       <img src={ImagesCocktails.img8} alt=""/>
                     </div>
                     <div className="cocktail-text">
-                      <h2 className="cocktail-name">ELEGANTE</h2>
+                      <h2 className="cocktail-name">LA PIÑA</h2>
                       <ul className="receta">
                         <li>- Pineapple-Honey Sour</li>
                         <li>- 2oz Curamia Tequila</li>
@@ -229,6 +229,7 @@ class Cocktails extends Component {
                         <li>- 1 egg white or vegan substitution</li>
                         <li>- .5oz Pineapple Juice</li>
                         <li>- Garnish: Fresh cut pineapple half/quarter with rind</li>
+                        <li>- Freshly grated cinnamon garnish</li>
                       </ul>
                     </div>
                   </div>
@@ -238,7 +239,7 @@ class Cocktails extends Component {
                       <img src={ImagesCocktails.img9} alt=""/>
                     </div>
                     <div className="cocktail-text">
-                      <h2 className="cocktail-name">THE BREW</h2>
+                      <h2 className="cocktail-name">JALISCO BREW</h2>
                       <ul className="receta">
                         <li>- 2oz Curamia Tequila</li>
                         <li>- .5oz Chocolate Liquor</li>
@@ -383,7 +384,7 @@ class Cocktails extends Component {
                   <img src={ImagesCocktails.img8} alt=""/>
                 </div>
                 <div className="cocktail-text-mobile">
-                  <h2 className="cocktail-name-mobile" data-aos="fade-left">ELEGANTE</h2>
+                  <h2 className="cocktail-name-mobile" data-aos="fade-left">LA PIÑA</h2>
                   <ul className="receta-mobile" data-aos="fade-right">
                     <li>- Pineapple-Honey Sour</li>
                     <li>- 2oz Curamia Tequila</li>
@@ -392,6 +393,7 @@ class Cocktails extends Component {
                     <li>- 1 egg white or vegan substitution</li>
                     <li>- .5oz Pineapple Juice</li>
                     <li>- Garnish: Fresh cut pineapple half/quarter with rind</li>
+                    <li>- Freshly grated cinnamon garnish</li>
                   </ul>
                 </div>
               </div>
@@ -400,7 +402,7 @@ class Cocktails extends Component {
                   <img src={ImagesCocktails.img9} alt=""/>
                 </div>
                 <div className="cocktail-text-mobile">
-                  <h2 className="cocktail-name-mobile" data-aos="fade-left">THE BREW</h2>
+                  <h2 className="cocktail-name-mobile" data-aos="fade-left">JALISCO BREW</h2>
                   <ul className="receta-mobile" data-aos="fade-right">
                     <li>- 2oz Curamia Tequila</li>
                     <li>- .5oz Chocolate Liquor</li>

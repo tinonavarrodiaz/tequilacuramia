@@ -58,11 +58,11 @@
     @extend %list-style;
     display: flex;
     position: absolute;
-    bottom: 0em;
+    bottom: 2em;
     right: 2em;
     z-index: 20;
     @include from(1400px){
-      bottom: 0em;
+      bottom: 2em;
       right: 2em;
     }
     li{

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import AOSInit from "../helpers/helpers";
 import Header from "../components/Header"
-import Footer from "../components/Footer"
+// import Footer from "../components/Footer"
 import "../helpers/under.scss"
 // import Obj from "../helpers/instagramObj";
 const Mailto = ({ email, subject = '', body = '', children }) => {

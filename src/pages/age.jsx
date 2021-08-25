@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {BrowserView, MobileView} from "react-device-detect";
 import henm from "../assets/img/henm-light.svg"
 import logoAccss from "../assets/img/logo-access.svg"
-import logoAlt from "../assets/img/logo-alt.svg"
+// import logoAlt from "../assets/img/logo-alt.svg"
 import no from "../assets/img/no.png"
 import yes from "../assets/img/yes.png"
 import leyendaBig from "../assets/img/leyenda-big.png"
