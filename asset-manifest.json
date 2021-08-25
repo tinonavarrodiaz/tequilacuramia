@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tequilacuramia/static/css/main.bc53971c.chunk.css",
-    "main.js": "/tequilacuramia/static/js/main.70699513.chunk.js",
-    "main.js.map": "/tequilacuramia/static/js/main.70699513.chunk.js.map",
+    "main.css": "/tequilacuramia/static/css/main.b8b514ce.chunk.css",
+    "main.js": "/tequilacuramia/static/js/main.448f22ef.chunk.js",
+    "main.js.map": "/tequilacuramia/static/js/main.448f22ef.chunk.js.map",
     "runtime-main.js": "/tequilacuramia/static/js/runtime-main.94fdc084.js",
     "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.94fdc084.js.map",
     "static/css/2.2597ee6e.chunk.css": "/tequilacuramia/static/css/2.2597ee6e.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.5aa39d87.chunk.js.map": "/tequilacuramia/static/js/3.5aa39d87.chunk.js.map",
     "index.html": "/tequilacuramia/index.html",
     "static/css/2.2597ee6e.chunk.css.map": "/tequilacuramia/static/css/2.2597ee6e.chunk.css.map",
-    "static/css/main.bc53971c.chunk.css.map": "/tequilacuramia/static/css/main.bc53971c.chunk.css.map",
+    "static/css/main.b8b514ce.chunk.css.map": "/tequilacuramia/static/css/main.b8b514ce.chunk.css.map",
     "static/js/2.42d05ac4.chunk.js.LICENSE.txt": "/tequilacuramia/static/js/2.42d05ac4.chunk.js.LICENSE.txt",
     "static/media/01.19956bf9.jpg": "/tequilacuramia/static/media/01.19956bf9.jpg",
     "static/media/02.981dc43f.jpg": "/tequilacuramia/static/media/02.981dc43f.jpg",
@@ -59,7 +59,6 @@
     "static/media/intro1.0afe6fb3.jpg": "/tequilacuramia/static/media/intro1.0afe6fb3.jpg",
     "static/media/loading1.c6c6bc2f.svg": "/tequilacuramia/static/media/loading1.c6c6bc2f.svg",
     "static/media/logo-access.e1fce70f.svg": "/tequilacuramia/static/media/logo-access.e1fce70f.svg",
-    "static/media/logo-alt.c29c2fc8.svg": "/tequilacuramia/static/media/logo-alt.c29c2fc8.svg",
     "static/media/logo-bueno.46f1d4b2.svg": "/tequilacuramia/static/media/logo-bueno.46f1d4b2.svg",
     "static/media/logo-dark.58d7db3b.svg": "/tequilacuramia/static/media/logo-dark.58d7db3b.svg",
     "static/media/logoLight.8952d9d5.svg": "/tequilacuramia/static/media/logoLight.8952d9d5.svg",
@@ -79,7 +78,7 @@
     "static/js/runtime-main.94fdc084.js",
     "static/css/2.2597ee6e.chunk.css",
     "static/js/2.42d05ac4.chunk.js",
-    "static/css/main.bc53971c.chunk.css",
-    "static/js/main.70699513.chunk.js"
+    "static/css/main.b8b514ce.chunk.css",
+    "static/js/main.448f22ef.chunk.js"
   ]
 }
