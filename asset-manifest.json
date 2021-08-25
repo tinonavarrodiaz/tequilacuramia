@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tequilacuramia/static/css/main.b8b514ce.chunk.css",
-    "main.js": "/tequilacuramia/static/js/main.448f22ef.chunk.js",
-    "main.js.map": "/tequilacuramia/static/js/main.448f22ef.chunk.js.map",
+    "main.js": "/tequilacuramia/static/js/main.f3370fec.chunk.js",
+    "main.js.map": "/tequilacuramia/static/js/main.f3370fec.chunk.js.map",
     "runtime-main.js": "/tequilacuramia/static/js/runtime-main.94fdc084.js",
     "runtime-main.js.map": "/tequilacuramia/static/js/runtime-main.94fdc084.js.map",
     "static/css/2.2597ee6e.chunk.css": "/tequilacuramia/static/css/2.2597ee6e.chunk.css",
@@ -79,6 +79,6 @@
     "static/css/2.2597ee6e.chunk.css",
     "static/js/2.42d05ac4.chunk.js",
     "static/css/main.b8b514ce.chunk.css",
-    "static/js/main.448f22ef.chunk.js"
+    "static/js/main.f3370fec.chunk.js"
   ]
 }
