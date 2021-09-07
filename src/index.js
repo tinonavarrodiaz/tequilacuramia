@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Routes from './routes/Routes';
 import reportWebVitals from './reportWebVitals';
+import Access from './components/Access';
 
 import './scss/styles.scss';
 
 ReactDOM.render(
   <React.StrictMode>
     <Routes />
+    <Access />
   </React.StrictMode>,
   document.getElementById('root')
 );

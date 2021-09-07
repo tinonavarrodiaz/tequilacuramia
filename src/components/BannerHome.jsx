@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {BrowserView, MobileView} from "react-device-detect";
 import Loader from "react-js-loader";
 // import introText from "../assets/img/text-intro.png";
-import intro from "../assets/img/intro1.jpg"
+// import intro from "../assets/img/intro1.jpg"
 import './banner.scss'
 import audioIcon from "../assets/img/bocina.png"
 import video from "../assets/videofinal.mp4"
