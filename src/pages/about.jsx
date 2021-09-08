@@ -32,7 +32,7 @@ class About extends Component {
   render() {
   return (
     
-      <div onCharge={this.charge}>
+      <div>
         <Header />
         <section className="section about">
           

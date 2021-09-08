@@ -67,7 +67,7 @@ class Cocktails extends Component {
       //     }
       //   }}
       // >
-      <div onCharge={this.charge}>
+      <div>
         <BrowserView>
           <div className="over over-cocktails" style={{overflow: "hidden" }}>
             <Header />
