@@ -1,5 +1,6 @@
 .acceessibilityContainer {
   position: absolute;
+  z-index: var(--z-fixed);
 }
 .accessibility {
   position: fixed;
