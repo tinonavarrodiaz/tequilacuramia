@@ -1,91 +1,87 @@
 .bodyContent {
   opacity: 0;
 }
-.access{
+.access {
   height: 100vh;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: calc(var(--z-modal) * 1500);
+  z-index: 9999999999999999999999999999999999;
   display: flex !important;
   align-items: center;
   justify-content: space-around;
   padding: 3vh 0;
-  transition: all .5s;
+  transition: all 0.5s;
   opacity: 0;
   visibility: hidden;
   display: none;
-  &.show{
+  &.show {
     flex-direction: column;
-    animation: showmodal .5s forwards;
+    animation: showmodal 0.5s forwards;
     opacity: 1;
     visibility: visible;
     opacity: 1 !important;
-    @keyframes showmodal{
-      to{
+    @keyframes showmodal {
+      to {
       }
     }
   }
-  @include from(1400px){
+  @include from(1400px) {
     padding: 15vh 0;
-
   }
-  @media  screen and (orientation: portrait) {
+  @media screen and (orientation: portrait) {
     padding: 3vh 0;
   }
 }
-.henm{
+.henm {
   width: 100px;
-  @include from(m){
+  @include from(m) {
     width: 100px;
   }
-  @include from(l){
+  @include from(l) {
     width: 100px;
   }
 }
-.logoAccss{
+.logoAccss {
   width: 180%;
   max-width: 600px;
 }
-.leyenda{
+.leyenda {
   width: 70%;
-  max-width:750px;
+  max-width: 750px;
   margin: 0 auto;
 }
-.button-cont{
+.button-cont {
   width: 60%;
   max-width: 300px;
   background: transparent;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
-  @include from(l){
+  @include from(l) {
     width: 50%;
     grid-gap: 2em;
-
   }
-  button{
+  button {
     border: none;
     background: transparent;
-    img{
+    img {
       width: 100%;
     }
   }
 }
-.logoAlt{
+.logoAlt {
   max-width: 50px;
-  @include from(l){
+  @include from(l) {
     max-width: 70px;
-
   }
 }
-.rs-checkbox{
+.rs-checkbox {
   color: #fff !important;
   // font-size: 1.4em;
   transform-origin: center;
-  @include from(l){
+  @include from(l) {
     transform: scale(1.4);
-
   }
 }

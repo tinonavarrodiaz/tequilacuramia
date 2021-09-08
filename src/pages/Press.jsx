@@ -39,6 +39,7 @@ class Press extends Component {
     )
   }
   componentDidMount() {
+    window.scrollTo(0, 0)
     AOSInit()
     document.body.style.setProperty('--header-color', 'rgb(252,75,2)')
   }         

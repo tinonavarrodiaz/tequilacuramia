@@ -41,6 +41,9 @@ class Cocktails extends Component {
     //   cocktails.click()
     // })
   }
+  charge(){
+    window.scrollTo(0, 0)
+  }
 
   bullActive = (e) =>{
     let Target = e.target
@@ -64,7 +67,7 @@ class Cocktails extends Component {
       //     }
       //   }}
       // >
-      <div>
+      <div onCharge={this.charge}>
         <BrowserView>
           <div className="over over-cocktails" style={{overflow: "hidden" }}>
             <Header />
@@ -422,7 +425,7 @@ class Cocktails extends Component {
   }
   
   componentDidMount() {
-    console.log('componentDidMount')
+    window.scrollTo(0, 0)
     document.body.style.setProperty('--header-color', 'rgb(252,75,2)')
     this.slide()
     AOSInit()

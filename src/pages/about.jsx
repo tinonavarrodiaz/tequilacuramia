@@ -15,6 +15,9 @@ class About extends Component {
     }
     this.src = this.src.bind(this)
   }
+  charge(){
+    window.scrollTo(0, 0)
+  }
   // actualizarScroll(scro){
   //   console.log(this)
   // }
@@ -29,7 +32,7 @@ class About extends Component {
   render() {
   return (
     
-      <div >
+      <div onCharge={this.charge}>
         <Header />
         <section className="section about">
           
@@ -86,6 +89,7 @@ class About extends Component {
   )
     }
   componentDidMount() {
+    window.scrollTo(0, 0)
     document.body.style.setProperty('--header-color', '#FF3500')
     AOSInit()
   }

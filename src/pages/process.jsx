@@ -24,6 +24,9 @@ class Process extends Component {
     this.setState({scroll: e.offset.y})
     console.log(`scroll: ${this.state.scroll}`)
   }
+  charge(){
+    window.scrollTo(0, 0)
+  }
   loadImg(e){
     e.target.style.opacity = 1
   }
@@ -75,6 +78,9 @@ class Process extends Component {
   )
   }
   componentDidMount() {
+    // if (this.props.location !== prevProps.location) {
+      window.scrollTo(0, 0)
+    // }
     document.body.style.setProperty('--header-color', 'rgb(252,75,2)')
     AOSInit()
   }
