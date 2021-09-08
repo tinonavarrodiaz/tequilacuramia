@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-Right">
         <nav className="footerNav">
           <ul className="footerMenu">
-            <li><NavLink to="/about">About us</NavLink></li>
+            <li><NavLink exact to="/curamia">Curamia</NavLink></li>
             <li><NavLink exact to="/contact">Get in Touch</NavLink></li>
             <li><NavLink exact to="/privacy-policy">Privacy Policy</NavLink></li>
           </ul>
