@@ -1,20 +1,21 @@
-.under{
+.under {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  h1{
+  justify-content: space-between;
+  h1 {
     text-align: center;
   }
-  .press{
-    p, a{
+  .press {
+    p,
+    a {
       text-align: center;
     }
-    p{
+    p {
       margin-bottom: 1em;
     }
-    a{
-      color: var(--color-main)
+    a {
+      color: var(--color-main);
     }
     display: flex;
     flex-direction: column;
@@ -27,7 +28,6 @@
     padding-bottom: var(--header-height);
     @media screen and (min-width: 1024px) {
       // margin-bottom: 30vh;
-      
     }
   }
 }

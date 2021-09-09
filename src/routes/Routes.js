@@ -18,13 +18,14 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Contact from "../pages/Contact";
 // import Curamia from "../pages/curamia";
-// import Under from "../helpers/under";
+import Under from "../helpers/under";
 
 
 function Routes() {
   return (
     // <Router> 
-    <Router basename="/tequilacuramia">
+    // <Router basename="/tequilacuramia">
+    <Router>
       <Switch>
         <Route exact path="/" >
           <Home />
@@ -52,6 +53,9 @@ function Routes() {
         </Route>
         <Route exact path="/lamujermasbella" >
           <Mujer />
+        </Route>
+        <Route exact path="/privacy-policy" >
+          <Under />
         </Route>
 
         <Route path="*">
