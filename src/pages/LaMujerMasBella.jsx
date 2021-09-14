@@ -26,7 +26,9 @@ class Mujer extends Component {
             className="iframe-instagram"
             height="100%"
           /> */}
-          <iframe src="https://snapwidget.com/embed/958272" title="instagram" className="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style={{border:"none",overflowX:"auto", width:"100%"}}></iframe>
+          {/* <iframe src="https://snapwidget.com/embed/958272" title="instagram" className="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="yes" style={{border:"none",overflowX:"auto", width:"100%"}}></iframe> */}
+
+          <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/dc06d58e77d052628f0209b580858331.html" scrolling="no" allowtransparency="true" className="lightwidget-widget" title="instagram" style={{width:"100%",border:0,overflow:"hidden"}}></iframe>
         </section>
       </div>
     )

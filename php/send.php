@@ -34,7 +34,7 @@ function response($msg, $status, $code, $error){
 }
 
 
-$to = "tino.navarro@hotmail.com";
+$to = "dafna@curamiatequila.com";
 
 $name = $_POST['name'];
 $surname = $_POST['how'];

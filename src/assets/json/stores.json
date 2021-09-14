@@ -1,0 +1,122 @@
+[
+{
+"Store": "Exit 9",
+"addrees": "9 Halfmoon Crossing, Clifton Park, NY 12065",
+"lat": "42.874009",
+"lng": "-73.766703"
+},
+{
+"Store": "Save More",
+"addrees": "50 North Greenbush Road, Troy, NY 12180",
+"lat": "42.6925398",
+"lng": "-73.6878409"
+},
+{
+"Store": "Monty's",
+"addrees": "909 US 9, Queensbury, NY 12804",
+"lat": "43.3367764",
+"lng": "-73.6793957"
+},
+{
+"Store": "University",
+"addrees": "1225 Western Ave, Albany, NY 12203",
+"lat": "42.6774032",
+"lng": "-73.8232804"
+},
+{
+"Store": "Purdy's",
+"addrees": "70-72 Congress Street, Saratoga Springs, NY 12866",
+"lat": "43.079319",
+"lng": "-73.7902785"
+},
+{
+"Store": "Village",
+"addrees": "45 Front Street, Millbrook, NY 12545",
+"lat": "41.7858385",
+"lng": "-73.6958313"
+},
+{
+"Store": "Mid Valley",
+"addrees": "39 Plank Road #1, Newburgh, NY 12550",
+"lat": "41.5112996",
+"lng": "-74.0487196"
+},
+{
+"Store": "Liquorland",
+"addrees": "250 NY-59, Suffern, NY 10901",
+"lat": "41.1113949",
+"lng": "-74.107676"
+},
+{
+"Store": "Boutique",
+"addrees": "18 Westage Drive Suite 13, Hudson-Fishkill, NY 12524",
+"lat": "41.524848",
+"lng": "-73.895069"
+},
+{
+"Store": "Buy Wise",
+"addrees": "61 Rockland Center, Nanuet, NY 10954",
+"lat": "41.0918953",
+"lng": "-74.0042165"
+},
+{
+"Store": "Mid Town",
+"addrees": "77 Milton Ave, Ballston Spa, NY 12020",
+"lat": "43.0036097",
+"lng": "-73.8490881"
+},
+{
+"Store": "Slingerlands",
+"addrees": "1365 New Scotlane Road, Slingerlands, NY 12159",
+"lat": "42.639058",
+"lng": "-73.854549"
+},
+{
+"Store": "Cascade",
+"addrees": "5058 NY-22, Amenia, NY 12501",
+"lat": "41.7548358",
+"lng": "-73.581755"
+},
+{
+"Store": "McAdam's Buy Rite",
+"addrees": "398 3rd Ave, NY, NY 10016",
+"lat": "40.7423163",
+"lng": "-73.9809984"
+},
+{
+"Store": "Century",
+"addrees": "3349 Monroe Ave, Rochester, NY 14618",
+"lat": "43.1025544",
+"lng": "-77.5417758"
+},
+{
+"Store": "Liquor City",
+"addrees": "6793 E Genesee St, Fayetteville, NY 13066",
+"lat": "43.0332629",
+"lng": "-76.0507138"
+},
+{
+"Store": "Whitehouse",
+"addrees": "650 Hylan Dr B, Rochester, NY 14623",
+"lat": "43.0835472",
+"lng": "-77.6274384"
+},
+{
+"Store": "Amherst",
+"addrees": "601 Amherst St, Buffalo, NY 14207",
+"lat": "42.938777",
+"lng": "-78.88236"
+},
+{
+"Store": "Johnston City",
+"addrees": "670 Harry L Drive, Johnson City, NY 13790",
+"lat": "42.1228393",
+"lng": "-75.975173"
+},
+{
+"Store": "Sotheby's",
+"addrees": "1334 York Ave, NY, NY 10021",
+"lat": "40.7662842",
+"lng": "-73.9535451"
+}
+]
