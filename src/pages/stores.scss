@@ -1,0 +1,11 @@
+.stores-container {
+  padding: 0 calc(var(--padding) * 2);
+}
+.loadingC {
+  display: flex;
+  justify-content: center;
+  > img {
+    width: auto;
+    height: 2em;
+  }
+}

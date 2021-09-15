@@ -28,7 +28,7 @@ const ArticleBottom = (props)=>{
       <img src={imgtext} className="textbutton" alt="" data-aos="fade-right"/>
       <div className="buttonCB">
         <NavLink to="/where-buy" className="btnlin1"><img src={imgfind} data-aos="zoom-in" className="buttom-btn btn-find" alt="" /></NavLink>
-        <img src={imgorder} data-aos="zoom-in" className="btnlin1 buttom-btn btn-order" alt="" />
+        {/* <img src={imgorder} data-aos="zoom-in" className="btnlin1 buttom-btn btn-order" alt="" /> */}
       </div>
     </div>
   )

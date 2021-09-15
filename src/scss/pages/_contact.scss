@@ -92,9 +92,10 @@ form {
 }
 .input-group-search {
   display: grid;
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: auto 1fr;
   align-items: center;
   grid-gap: 1em;
+  justify-content: center;
   &:first-child {
     margin: 1em 0;
   }

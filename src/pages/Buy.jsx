@@ -5,10 +5,10 @@ import AOSInit from "../helpers/helpers";
 // import axios from "axios";
 import json from '../assets/json/stores.json'
 import GoogleMaps from "simple-react-google-maps"
-import GoogleMapReact from 'google-map-react';
-import mapa from "../assets/img/map.jpg";
+// import GoogleMapReact from 'google-map-react';
+// import mapa from "../assets/img/map.jpg";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+// const AnyReactComponent = ({ text }) => <div>{text}</div>;
 let zoom = 10,
   lat= sessionStorage.getItem('lat'),
   lng= sessionStorage.getItem('lng')
@@ -64,12 +64,12 @@ class Buy extends Component {
           li.setAttribute('data-lng', el.lng)
           listStore.appendChild(li)
         }
-        
+        return el
       })
     }
     console.log(lat, lng, zoom)
     listStore.addEventListener('click',e=>{
-      if (e.target.nodeName=='LI'){
+      if (e.target.nodeName==='LI'){
         let Lat = e.target.getAttribute('data-lat')*1
         let Lng = e.target.getAttribute('data-lng')*1
         sessionStorage.setItem('zip', e.target.getAttribute('data-zip'))
@@ -106,17 +106,17 @@ class Buy extends Component {
                 </p>
                 <form  className="formBuy" action="#" style={{width: '70%', lineHeight: '1.1'}} data-aos="fade-left" onSubmit={this.search}>
                   <div className="input-group-search">
-                    <label htmlFor="SearchLocation">Search Location:</label>
+                    <label htmlFor="SearchLocation">Zip Code:</label>
                     <input type="search" id="SearchLocation" value={this.state.zip}/>
                   </div>
-                  <div className="input-group-search">
+                  {/* <div className="input-group-search">
                     <label htmlFor="SearchLocation">Radius:</label>
                     <select type="search" id="SearchLocation">
                       <option value="20">20 miles</option>
                       <option value="40">40 miles</option>
                       <option value="60">60 miles</option>
                     </select>
-                  </div>
+                  </div> */}
                   <div className="radio-group-search">
                     <input type="radio" id="radio1" name="type"/>
                     <label htmlFor="radio1">Bars / Restaurants</label>

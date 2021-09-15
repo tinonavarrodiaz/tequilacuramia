@@ -11,8 +11,9 @@ import Process from "../pages/process"
 import Cocktails from "../pages/cocktails"
 import Tequilas from "../pages/tequilas"
 import Mujer from "../pages/LaMujerMasBella"
-import Press from "../pages/Press"
-import Buy from "../pages/Buy"
+import Press from "../pages/Press2"
+// import Buy from "../pages/Buy"
+import Stores from "../pages/stores"
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -46,7 +47,7 @@ function Routes() {
           <Contact />
         </Route>
         <Route exact path="/where-buy" >
-          <Buy />
+          <Stores />
         </Route>
         <Route exact path="/press" >
           <Press />

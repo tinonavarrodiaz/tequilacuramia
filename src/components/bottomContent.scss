@@ -1,4 +1,4 @@
-.bottomContent{
+.bottomContent {
   // --mbot: 40px;
   height: auto;
   display: flex;
@@ -9,13 +9,13 @@
   // background-color: lime;
   @media screen and (min-width: 1024px) {
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     padding: calc(var(--mbot) * 4) 10vw calc(var(--mbot) * 4);
   }
-  
-  .textbutton{
+
+  .textbutton {
     margin-bottom: 0;
-    
+
     @media screen and (min-width: 1024px) {
       margin-right: 10vw;
       max-width: 450px;
@@ -26,17 +26,17 @@
       margin-left: 3px;
     }
   }
-  .buttom-btn{
+  .buttom-btn {
     max-width: 100px;
     cursor: pointer;
     @media screen and (min-width: 1024px) {
       max-width: 150px;
     }
-    img:last-of-type{
+    img:last-of-type {
       display: none;
     }
   }
-  .btn-find{
+  .btn-find {
     margin-bottom: var(--mbot);
     @media screen and (min-width: 1024px) {
       margin-bottom: 0;
@@ -44,16 +44,16 @@
       margin-left: 3px;
     }
   }
-  img{
-    margin-bottom:  0 !important;
+  img {
+    margin-bottom: 0 !important;
   }
 }
-.buttonCB{
+.buttonCB {
   display: flex;
-  a{
-    margin-right: 1.5em;
+  a {
+    // margin-right: 1.5em;
   }
 }
-img.textbutton{
+img.textbutton {
   margin-bottom: 0 !important;
 }
